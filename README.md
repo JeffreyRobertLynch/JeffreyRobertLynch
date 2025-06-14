@@ -63,7 +63,7 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ## 📚 Certifications & Education
 
-- **B.S. in Computer Science** (ABET-Accredited CS Program)
+- **B.S. in Computer Science, ABET-Accredited Program** 
 - **Stanford University: AI in Healthcare Specialization** 
 - **DeepLearning.AI / Stanford: Machine Learning Specialization** 
   - Supervised Machine Learning: Regression and Classification
