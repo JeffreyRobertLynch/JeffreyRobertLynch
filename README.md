@@ -74,7 +74,7 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ## 📬 Let’s Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch)
+- 💼 [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 
 ---
 
