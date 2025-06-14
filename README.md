@@ -30,7 +30,8 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 ### 🔬 1. [Medical Image Segmentation with XAI (ISIC 2018)](link-to-project-or-summary)
 
 - Custom U-Net with attention mechanisms, trained from scratch on ISIC 2018 skin cancer segmentation data
-- Achieved production-level metrics with no pretrained models
+- Achieved production-level metrics without pretrained models
+- dice coefficient: 0.8751 | iou: 0.8000 | precision: 0.9028 | recall: 0.8291 | pixel accuracy: 0.9272 | f1 score: 0.8644
 - Full XAI suite: Grad-CAM, saliency maps, integrated gradients, mask overlays
 - IP-protected: Public notebook walkthrough available in place of full code
 
