@@ -1,4 +1,4 @@
-# 👋 Welcome to My AI/ML Portfolio
+# Welcome to My Portfolio!
 
 <!-- Programming Languages & Tools -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -24,20 +24,19 @@
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=green)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-<!-- Cloud Platforms -->
+<!-- Cloud / DB Platforms -->
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-
-<!-- Databases -->
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <!-- Soft Skills / Certifications -->
 ![Project Management](https://img.shields.io/badge/Project_Management-F2A900?style=for-the-badge&logo=atlassian&logoColor=white)
+![ITIL Foundation v4](https://img.shields.io/badge/ITIL_Foundation_v4-0096D6?style=for-the-badge&logo=axelos&logoColor=white)
 ![Agile](https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=agile&logoColor=white)
 
 ---
 
-## 🧠 About Me
+## About Me
 
 I’m an **AI/ML Engineer & Educator** with contributions to **100+ AI projects**, including end-to-end pipelines, explainable AI (XAI), and human-in-the-loop systems. I specialize in **deep learning for real-world applications**, particularly in **Computer Vision**, **Generative AI**, and **interpretable systems** built for regulatory compliance, stakeholder communication, SME collaboration, and public trust. 
 
@@ -45,7 +44,7 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ---
 
-## 💼 Core Strengths
+## Core Strengths
 
 - **Full Lifecycle AI/ML Development** – From data ingestion to model deployment and integration
 - **Explainable AI (XAI)** – Grad-CAM, saliency maps, integrated gradients, confidence overlays
@@ -55,9 +54,9 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🔬 1. [Clear Image XAI: Attention U-Net Skin Cancer Image Segmentation with XAI Suite](link-to-project-or-summary)
+### 1. [Clear Image XAI: Attention U-Net Skin Cancer Image Segmentation with XAI Suite](link-to-project-or-summary)
 
 - Custom U-Net with attention mechanisms, trained from scratch on ISIC 2018 skin cancer segmentation data
 - Achieved production-level metrics without pretrained models
@@ -68,7 +67,7 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ---
 
-### 🌾 2. [LeafGuard AI: CNN-Based Plant Disease Classification Application](link-to-senior-project)
+### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Application](link-to-senior-project)
 
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
 - ~99.5% accuracy (binary), ~95% (multi-class)
@@ -78,7 +77,7 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ---
 
-### 🧩 3. [Customer Scheduling Management System](link-to-repo)
+### 3. [Customer Scheduling Management System](link-to-repo)
 
 - Award-winning full-stack Java app with MVC & DAO architecture
 - Automated timezone & language localization, dynamic report generation, full CRUD
@@ -86,14 +85,14 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ---
 
-### 📝 4. [Splunk Integration for Business Intelligence](link-to-repo)
+### 4. [Splunk Integration for Business Intelligence](link-to-repo)
 
 - Award-winning white paper on Splunk for business intelligence, IT, and cybersecurity
 - Demonstrates tailoring technical communication to diverse audiences, integrating enterprise systems, collaborating with stakeholders, and conducting thorough research leading to fact-supported insights delivered clearly through executive summaries and multimedia presentations.
 
 ---
 
-## 📚 Certifications & Education
+## Certifications & Education
 
 - **B.S. in Computer Science, ABET-Accredited Program** 
 - **Stanford University: AI in Healthcare Specialization** 
@@ -105,9 +104,9 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ---
 
-## 📬 Let’s Connect
+## Let’s Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
+- [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 
 ---
 
