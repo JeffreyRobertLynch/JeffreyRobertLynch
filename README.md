@@ -56,7 +56,7 @@ My background combines **technical expertise**, **systems thinking**, and **10+ 
 
 ## Featured Projects
 
-### 1. [Clear Image XAI: Attention U-Net Skin Cancer Image Segmentation with XAI Suite](link-to-project-or-summary)
+### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](link-to-project-or-summary)
 
 - Custom U-Net with attention mechanisms, trained from scratch on ISIC 2018 skin cancer segmentation data
 - Achieved production-level metrics without pretrained models
