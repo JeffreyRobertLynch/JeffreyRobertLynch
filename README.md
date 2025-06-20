@@ -1,4 +1,4 @@
-# Welcome to My Portfolio!
+# AI/ML Engineering with a Focus on XAI, Compliance, and Usability
 
 <!-- Programming Languages & Tools -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -38,57 +38,133 @@
 
 ## About Me
 
-I’m an **AI/ML Engineer & Educator** with contributions to **100+ AI projects**, including end-to-end pipelines, explainable AI (XAI), and human-in-the-loop systems. I specialize in **deep learning for real-world applications**, particularly in **Computer Vision**, **Generative AI**, and **interpretable systems** built for regulatory compliance, stakeholder communication, SME collaboration, and public trust. 
+I’m an **AI/ML Engineer & Educator** with contributions to **100+ AI projects**, including end-to-end AI applications, explainable AI (XAI), and human-in-the-loop systems. I specialize in **deep learning for real-world applications**, with a focus on **Computer Vision**, **Generative AI**, and **interpretable XAI systems** designed for regulatory compliance, stakeholder communication, and public trust.
 
-My background combines **technical expertise**, **systems thinking**, and **10+ years of instructional and leadership experience**. 
+My background combines **deep technical expertise**, **systems-level engineering**, and **10+ years of instructional and leadership experience** across academic, cross-functional, and global teams.
 
 ---
 
-## Core Strengths
+## Key Differentiators
 
-- **Full Lifecycle AI/ML Development** – From data ingestion to model deployment and integration
-- **Explainable AI (XAI)** – Grad-CAM, saliency maps, integrated gradients, confidence overlays
-- **Human-AI Collaboration** – Systems that allow SMEs and AI models to collaborate and improve iteratively
-- **High-Performance Architecture** – Custom CNNs, U-Nets, ViTs, GANs, and more
-- **Communication & Teaching** – Global technical educator, award-winnning communicator
+- **Full Lifecycle AI/ML Development**  
+  From data ingestion and preprocessing to training, evaluation, deployment, and integration.
+  
+- **Explainable AI (XAI)**  
+  Deep suite including Grad-CAM, saliency maps, integrated gradients, layer visualization, overlay comparison, and more tools for interpretability and trust.
+  
+- **Human-AI Collaboration**  
+  Systems thinking approach for aligning AI outputs with SME feedback and regulatory requirements.
+  
+- **High-Performance Custom Architecture**  
+  Custom-built CNNs, U-Nets, ViTs, and GANs designed for maximum performance and transferability.
+  
+- **Communication, Teaching & Leadership**  
+  Award-winning communicator with 10+ years of experience leading teams, mentoring talent, and delivering clarity across technical and non-technical audiences.
+
+---
+
+## Mission
+
+I build AI that works in the real world — not black boxes, but clear, controllable systems that earn trust, meet regulations, and drive actionable outcomes.
+
+Unlike plug-and-play approaches that rely on third-party APIs or opaque pretrained models, I specialize in from-scratch, ownable AI tailored to your data, infrastructure, and use case. My solutions are:
+
+- **Auditable** – every layer, transformation, and decision pathway is visible
+
+- **Deployable** – from notebook to app, with API integration and user interfaces
+
+- **Actionable** – with interpretable results, stakeholder-aligned outputs, and embedded explainability
+
+- **Secure & compliant** – no hidden licensing risks or external model dependencies
+
+- **Iteratively improvable** – with XAI and Human-in-the-Loop (HITL) design baked in
+
+Whether building a precision segmentation model for clinical use or a scalable classifier embedded in an end-user tool, I approach each project as a full product — not just a model. I apply system-level thinking, modern ML architecture, and a decade of instructional and leadership experience to deliver results that are technically rigorous, business-aware, and designed for trust.
 
 ---
 
 ## Featured Projects
 
 ### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](link-to-project-or-summary)
+- Production-grade medical image segmentation with deep explainability for clinical trust & regulatory compliance
 
-- Custom U-Net with attention mechanisms, trained from scratch on ISIC 2018 skin cancer segmentation data
-- Achieved production-level metrics without pretrained models
-- dice coefficient: 0.8751 | IOU: 0.8000 | precision: 0.9028 | recall: 0.8291 | pixel accuracy: 0.9272 | F1 score: 0.8644
-- Full XAI suite: Grad-CAM, saliency maps, integrated gradients, mask overlays
-- IP-protected: Public notebook walkthrough available in place of full code
-- Demonstrates production-level metrics in medical image segmentation, high-performance custom architecture, robust generalizable workflow, systems-level engineering, and advanced implementation of explainable AI for actionable decision support and regulatory compliance. 
+- Custom **U-Net with attention mechanisms**, trained from scratch on the **ISIC 2018** skin lesion segmentation dataset  
+- Achieved **production-level performance without pretrained models**  
+  - **Dice**: 0.8751 | **IoU**: 0.8000 | **Precision**: 0.9028 | **Recall**: 0.8291 | **Accuracy**: 0.9272 | **F1 Score**: 0.8644  
+- Includes a **full XAI suite**: Grad-CAM, layer visualization, saliency maps, integrated gradients, confidence maps, confusion matrices, and mask overlays
+- Includes **modular image processing pipeline** for use in augmenting training data and preprocessing test images to enhance model performance
+- **IP-protected**: Public notebook walkthrough available in place of source code  
+
+**Demonstrated Skills:**  
+- **Production-level medical image segmentation using custom models trained from scratch (no pretrained weights)**
+
+- **High-performance custom architecture with attention mechanisms**
+- **Advanced XAI implementation for interpretability, decision support, and regulatory compliance**
+- **Reusable, modular image augmentation & preprocessing pipeline with documented impact on real-world inference**
+- **Domain-aware experimentation via custom loss optimization for task-specific performance (Dice, Tversky, Hybrid)**
+- **Metric-driven development using domain-relevant KPIs (Dice, IoU, Recall, etc.) and performance benchmarking**
+- **Generalizable, end-to-end ML workflow design engineered for reproducibility and clinical adaptation**
+- **Systems-level thinking including integration into Human-in-the-Loop (HITL) pipelines for SME collaboration and oversight**
 
 ---
 
 ### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Application](link-to-senior-project)
+- Computer Vision disease detection system for agricultural decision support and disease tracking
 
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
-- ~99.5% accuracy (binary), ~95% (multi-class)
-- GUI-based batch classifier & color-coded mapping for actionable disease tracking
-- Full senior project version shared (full app version & trained models retained as IP)
+- ~99.5% accuracy (binary), ~95% (multi-class) across 10 disease classes
+- Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
+- Trained model + full app (FastAPI version) retained as IP; full prototype with widget GUI shared in public repo
+- Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
 - Demonstrates high-accuracy image classification, practical deployment of CNNs, agricultural decision-support tooling, and end-to-end integration of model, data pipeline, and interface for real-world usability.
+
+**Demonstrated Skills:**  
+- **High-accuracy image classification with custom CNN architecture**
+
+- **Full pipeline integration: model training, batch prediction, and GUI deployment**
+- **Practical deployment of AI for precision agriculture**
+- **Custom GUI for non-technical stakeholders with actionable visual outputs**
+- **Modular design for portability to other plant disease classification tasks**
+- **System-level thinking and engineering tradeoffs across ML + UX**
+- **Project Management Documentation for Business Case, Milestones, Deliverables, Budget, and Resources**
+- **Technical Documentation for Data Management, Model Training, Model Evaluation, and Feature Engineering**
 
 ---
 
 ### 3. [Customer Scheduling Management System](link-to-repo)
+- Full-stack Java application designed for global business scheduling and reporting
 
-- Award-winning full-stack Java app with MVC & DAO architecture
-- Automated timezone & language localization, dynamic report generation, full CRUD
-- Demonstrates advanced OOP, full CRUD operations, MySQL database integration, dynamic time zone & language localization, report generation via prepared statements, seamless front-end/backend communication, and a production-ready UX for global business applications.
+- Built with MVC and DAO patterns, it features full CRUD functionality, and dynamic report generation
+- Automated localization for all timezones & 15 languages
+- Security features include basic password protection and user activity auditing
+- Recipient of Academic Excellence Award for software development
+
+**Demonstrated Skills:**  
+- **MySQL database integration and optimized query execution via DAO layer with clear layer separation**
+
+- **Full database CRUD (Create, Read, Update, Delete) functionality**
+- **Dynamic time zone and multi-language localization for international usability**
+- **Front-end/backend communication and event-driven GUI design (JavaFX)**
+- **Automated reporting through prepared statements and custom logic**
+- **Scalable MVC & DAO architecture for enterprise scheduling systems**
+- **Production-ready UX focused on reliability and meeting strict business requirements**
 
 ---
 
 ### 4. [Splunk Integration for Business Intelligence](link-to-repo)
+- White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations
 
-- Award-winning white paper on Splunk for business intelligence, IT, and cybersecurity
-- Demonstrates tailoring technical communication to diverse audiences, integrating enterprise systems, collaborating with stakeholders, and conducting thorough research leading to fact-supported insights delivered clearly through executive summaries and multimedia presentations.
+- Full portfolio included a business case, technical white paper, executive summary, and multimedia presentations
+- Recipient of Academic Excellence Award for technical communication
+
+- **Demonstrated Skills:** 
+- **Enterprise systems integration and tool evaluation (Splunk)**
+- **Tailoring technical communication for diverse audiences (executives, SMEs, non-tech stakeholders)**
+- **Cross-functional collaboration and stakeholder alignment**
+- **Business case development grounded in operational impact and ROI**
+- **Technical writing and documentation (white paper, summaries, use cases)**
+- **Multimedia presentation design for clear insight delivery**
+- **Research-backed recommendation development and strategic communication**
 
 ---
 
