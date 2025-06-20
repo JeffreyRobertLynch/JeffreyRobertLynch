@@ -85,7 +85,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 ## Featured Projects
 
-### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](link-to-project-or-summary)
+### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/JeffreyRobertLynch)
 - Production-grade medical image segmentation with deep explainability for clinical trust & regulatory compliance
 
 - Custom **U-Net with attention mechanisms**, trained from scratch on the **ISIC 2018** skin lesion segmentation dataset  
@@ -108,7 +108,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 ---
 
-### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Application](link-to-senior-project)
+### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Application](https://github.com/JeffreyRobertLynch/JeffreyRobertLynch)
 - Computer Vision disease detection system for agricultural decision support and disease tracking
 
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
@@ -131,7 +131,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 ---
 
-### 3. [Customer Scheduling Management System](link-to-repo)
+### 3. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/JeffreyRobertLynch)
 - Full-stack Java application designed for global business scheduling and reporting
 
 - Built with MVC and DAO patterns, it features full CRUD functionality, and dynamic report generation
@@ -151,7 +151,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 ---
 
-### 4. [Splunk Integration for Business Intelligence](link-to-repo)
+### 4. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/JeffreyRobertLynch)
 - White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations
 
 - Full portfolio included a business case, technical white paper, executive summary, and multimedia presentations
