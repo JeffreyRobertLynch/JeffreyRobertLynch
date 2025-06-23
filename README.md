@@ -93,7 +93,6 @@ Whether building a precision segmentation model for clinical use or a scalable c
   - **Dice**: 0.8751 | **IoU**: 0.8000 | **Precision**: 0.9028 | **Recall**: 0.8291 | **Accuracy**: 0.9272 | **F1 Score**: 0.8644  
 - Includes a **full XAI suite**: Grad-CAM, layer visualization, saliency maps, integrated gradients, confidence maps, confusion matrices, and mask overlays
 - Includes **modular image processing pipeline** for use in augmenting training data and preprocessing test images to enhance model performance
-- **IP-protected**: Public notebook walkthrough available in place of source code  
 
 **Demonstrated Skills:**  
 - **Production-level medical image segmentation using custom models trained from scratch (no pretrained weights)**
@@ -108,15 +107,13 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 ---
 
-### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
+### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
 - Computer Vision disease detection system for agricultural decision support and disease tracking
 
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
-- ~99.5% accuracy (binary), ~95% (multi-class) across 10 disease classes
+- ~99.5% accuracy (binary), ~94.5% (multi-class) across 10 disease classes; 1000 image test set
 - Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
-- Trained model + full app (FastAPI version) retained as IP; full prototype with widget GUI shared in public repo
 - Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
-- Demonstrates high-accuracy image classification, practical deployment of CNNs, agricultural decision-support tooling, and end-to-end integration of model, data pipeline, and interface for real-world usability.
 
 **Demonstrated Skills:**  
 - **High-accuracy image classification with custom CNN architecture**
@@ -154,7 +151,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 ### 4. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
 - White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations
 
-- Full portfolio included a business case, technical white paper, executive summary, and multimedia presentations
+- Full portfolio includes: organization overview, technical white paper, executive summary, and multimedia presentations
 - Recipient of Academic Excellence Award for technical communication
 
 - **Demonstrated Skills:** 
