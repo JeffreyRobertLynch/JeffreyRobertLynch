@@ -120,7 +120,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 - **High-accuracy image classification with custom CNN architecture**
 
 - **Full pipeline integration: model training, batch prediction, and GUI deployment**
-- **SCalable, high-throughput deployment of AI for precision agriculture**
+- **Scalable, high-throughput deployment of AI for precision agriculture**
 - **Custom GUI for non-technical stakeholders with actionable visual outputs**
 - **Modular design for portability to other plant disease classification tasks**
 - **System-level thinking and engineering tradeoffs across ML + UX**
