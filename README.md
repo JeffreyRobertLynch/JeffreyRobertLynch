@@ -112,6 +112,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
 - ~99.5% accuracy (binary), ~94.5% (multi-class) across 10 disease classes; 1000 image test set
+- Classifies a 24-image batch, with confidence scores and visualizations, in under 3 seconds.
 - Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
 - Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
 
@@ -119,7 +120,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 - **High-accuracy image classification with custom CNN architecture**
 
 - **Full pipeline integration: model training, batch prediction, and GUI deployment**
-- **Practical deployment of AI for precision agriculture**
+- **SCalable, high-throughput deployment of AI for precision agriculture**
 - **Custom GUI for non-technical stakeholders with actionable visual outputs**
 - **Modular design for portability to other plant disease classification tasks**
 - **System-level thinking and engineering tradeoffs across ML + UX**
