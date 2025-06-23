@@ -1,4 +1,4 @@
-# AI/ML Engineering with a Focus on XAI, Deployment, and Usability
+# AI/ML Engineering with a Focus on Deployment, XAI, and Usability
 
 <!-- Programming Languages & Tools -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
