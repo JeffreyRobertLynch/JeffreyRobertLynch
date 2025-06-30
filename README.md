@@ -111,7 +111,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 - Computer Vision disease detection system for agricultural decision support and disease tracking
 
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
-- ~99.5% accuracy (binary), ~94.5% (multi-class) across 10 disease classes; 1000 image test set
+- ~99% accuracy (binary), ~94.5% (multi-class) across 10 disease classes; 1000 image test set
 - Classifies a 24-image batch, with confidence scores and visualizations, in under 3 seconds.
 - Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
 - Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
