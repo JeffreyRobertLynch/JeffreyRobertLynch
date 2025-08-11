@@ -1,6 +1,6 @@
-# AI/ML Engineering with a Focus on Deployment, XAI, and Usability
+# AI/ML Engineering with a Focus on Deployment, XAI, and HITL Systems 
 
-<!-- Programming Languages & Tools -->
+<!-- Programming Languages -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -17,7 +17,7 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-<!-- Development Tools & Platforms -->
+<!-- Development Tools -->
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
@@ -38,7 +38,7 @@
 
 ## About Me
 
-I’m an **AI/ML Engineer & Educator** with contributions to **100+ AI projects**, including end-to-end AI applications, explainable AI (XAI), and human-in-the-loop systems. I specialize in **deep learning for real-world applications**, with a focus on **Computer Vision**, **Generative AI**, and **interpretable XAI systems** designed for regulatory compliance, stakeholder communication, and public trust.
+I’m an **AI/ML Engineer & Educator** with contributions to **100+ AI projects**, including **end-to-end AI applications**, **explainable AI (XAI)**, and **human-in-the-loop systems (HITL)**. I specialize in **deep learning for real-world applications**, with a focus on **Computer Vision**, **Generative AI**, and **LLMs** designed for regulatory compliance, stakeholder communication, and public trust.
 
 My background combines **deep technical expertise**, **systems-level engineering**, and **10+ years of instructional and leadership experience** across academic, cross-functional, and global teams.
 
@@ -56,7 +56,7 @@ My background combines **deep technical expertise**, **systems-level engineering
   Systems thinking approach for aligning AI outputs with SME feedback and regulatory requirements.
   
 - **High-Performance Custom Architecture**  
-  Custom-built CNNs, U-Nets, ViTs, and GANs designed for maximum performance and transferability.
+  Custom-built CNNs, U-Nets, and GANs designed for maximum performance and transferability.
   
 - **Communication, Teaching & Leadership**  
   Award-winning communicator with 10+ years of experience leading teams, mentoring talent, and delivering clarity across technical and non-technical audiences.
@@ -65,21 +65,21 @@ My background combines **deep technical expertise**, **systems-level engineering
 
 ## Mission
 
-I build AI that works in the real world — not black boxes, but clear, controllable systems that earn trust, meet regulations, and drive actionable outcomes.
+I build clear, controllable AI systems that earn trust, meet regulations, and integrate with expert workflows. 
 
-Unlike plug-and-play approaches that rely on third-party APIs or opaque pretrained models, I specialize in from-scratch, ownable AI tailored to your data, infrastructure, and use case. My solutions are:
+Unlike plug-and-play approaches that rely on third-party APIs or opaque "black-box" models, I specialize in custom, ownable AI tailored to your data, infrastructure, and use case. My solutions are:
 
-- **Auditable** – every layer, transformation, and decision pathway is visible
+- **Auditable** – every layer, transformation, and decision pathway is visible.
 
-- **Deployable** – from notebook to app, with API integration and user interfaces
+- **Deployable** – from notebook to app, with API integration and user interfaces.
 
-- **Actionable** – with interpretable results, stakeholder-aligned outputs, and embedded explainability
+- **Actionable** – with interpretable results, stakeholder-aligned outputs, and embedded explainability.
 
-- **Secure & compliant** – no hidden licensing risks or external model dependencies
+- **Secure & Compliant** – no hidden licensing risks or external model dependencies.
 
-- **Iteratively improvable** – with XAI and Human-in-the-Loop (HITL) design baked in
+- **Expert-Aligned** – with XAI and Human-in-the-Loop (HITL) design baked in.
 
-Whether building a precision segmentation model for clinical use or a scalable classifier embedded in an end-user tool, I approach each project as a full product — not just a model. I apply system-level thinking, modern ML architecture, and a decade of instructional and leadership experience to deliver results that are technically rigorous, business-aware, and designed for trust.
+Whether building a precision segmentation model for clinical use or a scalable classifier embedded in an end-user tool, I approach each project as a full product. I apply system-level thinking, modern DL architecture, and a decade of instructional and leadership experience to deliver results that are technically rigorous, business-aware, and designed for trust.
 
 ---
 
