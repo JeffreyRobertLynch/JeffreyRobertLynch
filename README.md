@@ -96,6 +96,8 @@ Whether building a precision segmentation model from scratch or customizing an L
 - Includes **modular image processing pipeline** for use in augmenting training data and preprocessing test images to enhance model performance
 - Extensive **demo** for **technical** and **non-technical** audiences with visuals, metrics, and context.
 
+---
+
 **Highlights:**  
 - **Flagship Project: Computer Vision + XAI Systems**
 - **High Performance Medical Image Segmentation**
@@ -111,11 +113,13 @@ Whether building a precision segmentation model from scratch or customizing an L
 ---
 
 ### 2. StoryCore HITL: Human-in-the-Loop Narrative Intelligence System
-**Temporarily private. Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.**
+**Temporarily unavailable. Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.**
 - Built an HITL system for AI-assisted creative development using studio design docs via RAG for TV series development.  
 - Automated evaluation of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
 - Prioritized human authorship; LLM provides structural memory, coverage, and alignment. 
 - Demonstrated optimized HITL cognitive division of labor through complex use case.
+
+---
 
 **Highlights:**  
 - **Flagship Project: LLM / NLP + HITL Systems**
@@ -128,6 +132,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 - **Authored Documents: Series Bible, Character Bible, Beat Sheets, Scripts, 10-Episode Season, Feedback Structures**
 - **Thorough Demonstration of Intentionally Complex Real-World Use Case**
 
+---
 
 ### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
 - Computer vision disease detection system for agricultural decision support and tracking
@@ -136,6 +141,8 @@ Whether building a precision segmentation model from scratch or customizing an L
 - Classifies a 24-image batch, with confidence scores and visualizations, in under 3 seconds.
 - Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
 - Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
+
+---
 
 **Highlights:**  
 - **High-Accuracy Image Classification Convolutional Neural Network**
@@ -155,6 +162,8 @@ Whether building a precision segmentation model from scratch or customizing an L
 - Automated localization for all timezones & 15 languages
 - Security features include basic password protection and user activity auditing
 
+---
+
 **Highlights:**  
 - **Academic Excellence Award Recipient: Software 2**
 - **Full-Stack Software Engineering**
@@ -170,7 +179,8 @@ Whether building a precision segmentation model from scratch or customizing an L
 ### 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
 - White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations
 - Full portfolio includes: organization overview, technical white paper, executive summary, and multimedia presentations
-- Recipient of Academic Excellence Award for technical communication
+
+---
 
 - **Highlights:** 
 - **Academic Excellence Award Recipient: Technical Communication**
