@@ -65,7 +65,7 @@
 
 I build human-aligned AI systems that are transparent, adaptable, and designed to work alongside experts. 
 
-Humans and AI have different cognitive strengths. We can leverage both most effectively by dividing tasks within a structured yet flexible system to support real-world workflows. 
+Humans and AI models have different cognitive strengths. We can leverage both most effectively by dividing tasks within a structured yet flexible system to support real-world workflows. 
 
 My solutions are:
 
