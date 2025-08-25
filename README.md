@@ -85,8 +85,6 @@ Whether building a precision segmentation model from scratch or customizing an L
 
 ## Featured Projects
 
----
-
 ### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
 - Production-level medical image segmentation with deep explainability for clinical trust & regulatory compliance
 - Custom **U-Net with attention mechanisms**, trained from scratch on the **ISIC 2018** skin lesion segmentation dataset  
