@@ -128,7 +128,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 - **LLM + RAG Integration & Customization**
 - **Domain-Aware Qualitative Analysis**
 - **Authored Documents: Series Bible, Character Bible, Beat Sheets, Scripts, 10-Episode Season, Feedback Structures**
-- **Thorough Demonstration of Intentionally Complex Real-World Use Case**
+- **Thorough Demonstration of Suitably Complex Real-World Use Case**
 
 ---
 
