@@ -1,4 +1,4 @@
-# AI/ML Engineering with a Focus on Deployment, XAI, and HITL Systems 
+# AI/ML Engineer & Educator | HITL & XAI | Computer Vision |  LLM & NLP | End-to-End Applications & Systems
 
 <!-- Programming Languages -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -111,11 +111,11 @@ Whether building a precision segmentation model from scratch or customizing an L
 ---
 
 ### 2. StoryCore HITL: Human-in-the-Loop Narrative Intelligence System
+**Temporarily private. Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.**
 - Built an HITL system for AI-assisted creative development using studio design docs via RAG for TV series development.  
 - Automated evaluation of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
 - Prioritized human authorship; LLM provides structural memory, coverage, and alignment. 
 - Demonstrated optimized HITL cognitive division of labor through complex use case.
-- **Currently updating real-world use case to reflect migration from GPT-4 to GPT-5 for LLM component.**
 
 **Highlights:**  
 - **Flagship Project: LLM / NLP + HITL Systems**
