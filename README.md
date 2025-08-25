@@ -63,17 +63,21 @@
 
 ## Mission
 
-I build clear, controllable AI systems that earn trust, meet regulations, and integrate with expert workflows. 
+I build human-aligned AI systems that are transparent, adaptable, and designed to work alongside experts. 
 
-Unlike plug-and-play approaches that rely on third-party APIs or opaque "black-box" models, I specialize in custom, ownable AI tailored to your data, infrastructure, and use case. My solutions are:
+Humans and AI have different cognitive strengths. We can leverage both most effectively by dividing tasks within a structured yet flexible system to support real-world workflows. 
+
+My solutions are:
+
+- **Human-Centric** – with XAI and Human-in-the-Loop (HITL) design baked in.
+
+- **Domain-Aware** - whether focused on medical imaging, precision agriculture, or HITL support for creative domains like television series development.
 
 - **Auditable** – every layer, transformation, and decision pathway is visible.
 
 - **Deployable** – from notebook to app, with API integration and user interfaces.
 
 - **Actionable** – with interpretable results, stakeholder-aligned outputs, and embedded explainability.
-
-- **Expert-Aligned** – with XAI and Human-in-the-Loop (HITL) design baked in.
 
 Whether building a precision segmentation model from scratch or customizing an LLM for use in a UX-aligned HITL system, I approach each project as a full product. I apply system-level thinking, modern DL architecture, and a decade of instructional and leadership experience to deliver results that are technically rigorous, business-aware, and designed for trust.
 
