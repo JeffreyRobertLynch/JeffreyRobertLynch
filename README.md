@@ -38,9 +38,7 @@
 
 ## About Me
 
-I’m an **AI/ML Engineer & Educator** with contributions to **100+ AI projects**, including **end-to-end AI applications**, **explainable AI (XAI)**, and **human-in-the-loop systems (HITL)**. I specialize in **deep learning for real-world applications**, with a focus on **Computer Vision**, **Generative AI**, and **LLMs** designed for regulatory compliance, stakeholder communication, and public trust.
-
-My background combines **deep technical expertise**, **systems-level engineering**, and **10+ years of instructional and leadership experience** across academic, cross-functional, and global teams.
+**AI / ML Engineer & Educator** with contributions to **100+ projects** across **computer vision, LLM customization,** and **human-in-the-loop (HITL) systems**. Skilled in building **custom architectures, deploying models,** and designing **generalizable, production-aware workflows**. Specialized in **cognitive system design** and **explainable AI (XAI)** for high-stakes domains. **10+ years** of **leadership** and **instruction** experience. Recognized for excellence in both **engineering** and **communication**. 
 
 ---
 
@@ -55,8 +53,8 @@ My background combines **deep technical expertise**, **systems-level engineering
 - **Human-AI Collaboration**  
   Systems thinking approach for aligning AI outputs with SME feedback and regulatory requirements.
   
-- **High-Performance Custom Architecture**  
-  Custom-built CNNs, U-Nets, and GANs designed for maximum performance and transferability.
+- **High-Performance Architecture**  
+  LLMs, CNNs, and U-Nets designed for maximum performance and transferability.
   
 - **Communication, Teaching & Leadership**  
   Award-winning communicator with 10+ years of experience leading teams, mentoring talent, and delivering clarity across technical and non-technical audiences.
@@ -75,94 +73,110 @@ Unlike plug-and-play approaches that rely on third-party APIs or opaque "black-b
 
 - **Actionable** – with interpretable results, stakeholder-aligned outputs, and embedded explainability.
 
-- **Secure & Compliant** – no hidden licensing risks or external model dependencies.
-
 - **Expert-Aligned** – with XAI and Human-in-the-Loop (HITL) design baked in.
 
-Whether building a precision segmentation model for clinical use or a scalable classifier embedded in an end-user tool, I approach each project as a full product. I apply system-level thinking, modern DL architecture, and a decade of instructional and leadership experience to deliver results that are technically rigorous, business-aware, and designed for trust.
+Whether building a precision segmentation model from scratch or customizing an LLM for use in a UX-aligned HITL system, I approach each project as a full product. I apply system-level thinking, modern DL architecture, and a decade of instructional and leadership experience to deliver results that are technically rigorous, business-aware, and designed for trust.
 
 ---
 
 ## Featured Projects
 
-### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
-- Production-grade medical image segmentation with deep explainability for clinical trust & regulatory compliance
+---
 
+### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
+- Production-level medical image segmentation with deep explainability for clinical trust & regulatory compliance
 - Custom **U-Net with attention mechanisms**, trained from scratch on the **ISIC 2018** skin lesion segmentation dataset  
 - Achieved **production-level performance without pretrained models**  
   - **Dice**: 0.8751 | **IoU**: 0.8000 | **Precision**: 0.9028 | **Recall**: 0.8291 | **Accuracy**: 0.9272 | **F1 Score**: 0.8644  
 - Includes a **full XAI suite**: Grad-CAM, layer visualization, saliency maps, integrated gradients, confidence maps, confusion matrices, and mask overlays
 - Includes **modular image processing pipeline** for use in augmenting training data and preprocessing test images to enhance model performance
+- Extensive **demo** for **technical** and **non-technical** audiences with visuals, metrics, and context.
 
-**Demonstrated Skills:**  
-- **Production-level medical image segmentation using custom models trained from scratch (no pretrained weights)**
-
-- **High-performance custom architecture with attention mechanisms**
-- **Advanced XAI implementation for interpretability, decision support, and regulatory compliance**
-- **Reusable, modular image augmentation & preprocessing pipeline with documented impact on real-world inference**
-- **Domain-aware experimentation via custom loss optimization for task-specific performance (Dice, Tversky, Hybrid)**
-- **Metric-driven development using domain-relevant KPIs (Dice, IoU, Recall, etc.) and performance benchmarking**
-- **Generalizable, end-to-end ML workflow design engineered for reproducibility and clinical adaptation**
-- **Systems-level thinking including integration into Human-in-the-Loop (HITL) pipelines for SME collaboration and oversight**
+**Highlights:**  
+- **Flagship Project: Computer Vision + XAI Systems**
+- **High Performance Medical Image Segmentation**
+- **Custom Architecture with Attention Mechanisms**
+- **Advanced XAI Suit for Interpretability**
+- **Variant Model Specialization via Custom Loss for Task-Specific Performance (Dice, Tversky, Hybrid)**
+- **Domain-Aware, Metric-Driven Development (Dice, IoU, F1 Score, etc.) and Benchmarking**
+- **Modular Image Augmentation Pipeline**
+- **Reproducible and Generalizable Workflow Design**
+- **System Optimization for Performance, Decision Support, and Regulatory Compliance.**
+- **Thorough Demonstration and Documentation**
 
 ---
 
-### 2. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
-- Computer Vision disease detection system for agricultural decision support and disease tracking
+### 2. StoryCore HITL: Human-in-the-Loop Narrative Intelligence System
+- Built an HITL system for AI-assisted creative development using studio design docs via RAG for TV series development.  
+- Automated evaluation of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
+- Prioritized human authorship; LLM provides structural memory, coverage, and alignment. 
+- Demonstrated optimized HITL cognitive division of labor through complex use case.
+- **Currently updating real-world use case to reflect migration from GPT-4 to GPT-5 for LLM component.**
 
+**Highlights:**  
+- **Flagship Project: LLM / NLP + HITL Systems**
+- **Cross-Disciplinary HFHL (Human-First, Human-Last) HITL System Design**
+- **Short-Form (Pitch, Outline, Beat Sheet) and Long-Form (Episode, Season, Full Corpus) Evaluation and Feedback**
+- **Guided by Human-Authored Documents for Tone, Style, Structure, Rule Adherence, Alignment, Continuity, Dynamism, Character Utilization & Consistency, etc.**
+- **Structured Prompt Engineering**
+- **LLM + RAG Integration & Customization**
+- **Domain-Aware Qualitative Analysis**
+- **Authored Documents: Series Bible, Character Bible, Beat Sheets, Scripts, 10-Episode Season, Feedback Structures**
+- **Thorough Demonstration of Intentionally Complex Real-World Use Case**
+
+
+### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
+- Computer vision disease detection system for agricultural decision support and tracking
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
 - ~99% accuracy (binary), ~94.5% (multi-class) across 10 disease classes; 1000 image test set
 - Classifies a 24-image batch, with confidence scores and visualizations, in under 3 seconds.
 - Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
 - Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
 
-**Demonstrated Skills:**  
-- **High-accuracy image classification with custom CNN architecture**
-
-- **Full pipeline integration: model training, batch prediction, and GUI deployment**
-- **Scalable, high-throughput deployment of AI for precision agriculture**
-- **Custom GUI for non-technical stakeholders with actionable visual outputs**
-- **Modular design for portability to other plant disease classification tasks**
-- **System-level thinking and engineering tradeoffs across ML + UX**
-- **Project Management Documentation for Business Case, Milestones, Deliverables, Budget, and Resources**
-- **Technical Documentation for Data Management, Model Training, Model Evaluation, and Feature Engineering**
+**Highlights:**  
+- **High-Accuracy Image Classification Convolutional Neural Network**
+- **End-to-End: Model Training, App Integration, and Web Deployment**
+- **Scalable, High-Throughput Image Batch Processing**
+- **Custom GUI with Actionable Visual Output**
+- **Portable to Additional Precision Agriculture Tasks**
+- **Feature Engineering: Disease Map Generation**
+- **Project Management Documentation: Business Case, Milestones, Deliverables, Budget, and Resources**
+- **Technical Documentation: Data Management, Model Training, Model Evaluation, and Feature Engineering**
 
 ---
 
-### 3. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/Customer-Scheduling-Management-System-Java-SQL)
+### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/Customer-Scheduling-Management-System-Java-SQL)
 - Full-stack Java application designed for global business scheduling and reporting
-
 - Built with MVC and DAO patterns, it features full CRUD functionality, and dynamic report generation
 - Automated localization for all timezones & 15 languages
 - Security features include basic password protection and user activity auditing
-- Recipient of Academic Excellence Award for software development
 
-**Demonstrated Skills:**  
-- **MySQL database integration and optimized query execution via DAO layer with clear layer separation**
-
-- **Full database CRUD (Create, Read, Update, Delete) functionality**
-- **Dynamic time zone and multi-language localization for international usability**
-- **Front-end/backend communication and event-driven GUI design (JavaFX)**
-- **Automated reporting through prepared statements and custom logic**
-- **Scalable MVC & DAO architecture for enterprise scheduling systems**
-- **Production-ready UX focused on reliability and meeting strict business requirements**
+**Highlights:**  
+- **Academic Excellence Award Recipient: Software 2**
+- **Full-Stack Software Engineering**
+- **MySQL Database Integration with CRUD (Create, Read, Update, Delete)**
+- **Scalable Architecture: MVC + DAO Layers (Model-View-Controller + Data Access Object)**
+- **Dynamic Localization: All Time Zones and 15 Languages**
+- **Event-Driven GUI Design**
+- **Automated Reporting through Prepared Statements**
+- **Object Oriented Programming**
 
 ---
 
-### 4. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
+### 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
 - White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations
-
 - Full portfolio includes: organization overview, technical white paper, executive summary, and multimedia presentations
 - Recipient of Academic Excellence Award for technical communication
 
-- **Demonstrated Skills:** 
-- **Enterprise systems integration and tool evaluation (Splunk)**
-- **Tailoring technical communication for diverse audiences (executives, SMEs, non-tech stakeholders)**
-- **Cross-functional collaboration and stakeholder alignment**
-- **Business case development grounded in operational impact and ROI**
-- **Technical writing and documentation (white paper, summaries, use cases)**
-- **Multimedia presentation design for clear insight delivery**
-- **Research-backed recommendation development and strategic communication**
+- **Highlights:** 
+- **Academic Excellence Award Recipient: Technical Communication**
+- **Enterprise System (Splunk) Evaluation and Integration**
+- **Cross-Functional Stakeholder Engagement**
+- **Business Case Grounded in Operations and ROI**
+- **Technical Writing: White Paper and Executive Summary**
+- **Multimedia Presentation**
+- **Tailoring Strategic Communication**
+- **Earned Splunk Certs During Research.**
 
 ---
 
@@ -170,7 +184,7 @@ Whether building a precision segmentation model for clinical use or a scalable c
 
 - **B.S. in Computer Science, ABET-Accredited Program** 
 - **Stanford University: AI in Healthcare Specialization** 
-- **DeepLearning.AI / Stanford: Machine Learning Specialization** 
+- **DeepLearning.AI / Stanford University: Machine Learning Specialization** 
   - Supervised Machine Learning: Regression and Classification
   - Unsupervised Learning, Recommenders, Reinforcement Learning
   - Advanced Learning Algorithms Algorithms
