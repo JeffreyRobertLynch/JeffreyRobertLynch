@@ -110,12 +110,11 @@ Whether building a precision segmentation model from scratch or customizing an L
 
 ---
 
-### 2. StudioSync HITL: Human-in-the-Loop Narrative Intelligence System
-**Note**: *Temporarily unavailable. Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.*
-- Built an HITL system for AI-assisted creative development using studio design docs via RAG for TV series development.  
+### 2. StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence
+**Note**: *Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.*
+- Built an HITL system for AI-assisted creative development using studio design docs via RAG.  
 - Automated evaluation of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
-- Prioritized human authorship; LLM provides structural memory, coverage, and alignment. 
-- Demonstrated optimized HITL cognitive division of labor through complex use case.
+- Applied to a complex real-world use case: simulating a chaotic ensemble TV series from studio pitch to 10-episode treatment and pilot, aligned with predefined creative goals. 
 
 ---
 
