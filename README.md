@@ -90,7 +90,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 - Custom **U-Net with attention mechanisms**, trained from scratch on the **ISIC 2018** skin lesion segmentation dataset  
 - Achieved **production-level performance without pretrained models**  
   - **Dice**: 0.8751 | **IoU**: 0.8000 | **Precision**: 0.9028 | **Recall**: 0.8291 | **Accuracy**: 0.9272 | **F1 Score**: 0.8644  
-- Includes a **full XAI suite**: Grad-CAM, layer visualization, saliency maps, integrated gradients, confidence maps, confusion matrices, and mask overlays
+- Features a **full XAI suite**: Grad-CAM, layer visualization, saliency maps, integrated gradients, confidence maps, confusion matrices, and mask overlays
 - Includes **modular image processing pipeline** for use in augmenting training data and preprocessing test images to enhance model performance
 - Extensive **demo** for **technical** and **non-technical** audiences with visuals, metrics, and context.
 
@@ -112,9 +112,10 @@ Whether building a precision segmentation model from scratch or customizing an L
 
 ### 2. [StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
 **Note**: *Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.*
-- Built an HITL system for AI-assisted creative development using studio design docs via RAG.  
-- Automated evaluation of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
-- Demonstrated use case: supported development of a chaotic ensemble TV series across all phases: studio pitch, writers’ room, rough scripts, table read feedback, to finalized season 1. 
+- Built an **HITL system** for human-led creative development using **studio design docs** and **RAG**.  
+- **Automated evaluation** of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
+- **Demonstrated use case** by supporting development of a chaotic ensemble TV series **across all phases**: studio pitch, writers’ room, rough scripts, table read feedback, to finalized season 1. 
+- **Prioritized human creativity** by adhering to **Human-First, Human-Last** design principles.
 
 ---
 
@@ -132,12 +133,11 @@ Whether building a precision segmentation model from scratch or customizing an L
 ---
 
 ### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
-- Computer vision disease detection system for agricultural decision support and tracking
-- CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset
-- ~99% accuracy (binary), ~94.5% (multi-class) across 10 disease classes; 1000 image test set
-- Classifies a 24-image batch, with confidence scores and visualizations, in under 3 seconds.
-- Includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring
-- Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models
+- CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset.
+- **~99% accuracy (binary)**, **~94.5% (multi-class)** across **10 disease classes**; 1000 image test set.
+- **Classifies a 24-image batch**, with confidence scores and visualizations, in **under 3 seconds**.
+- Full Web app includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring.
+- Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models.
 
 ---
 
@@ -150,14 +150,15 @@ Whether building a precision segmentation model from scratch or customizing an L
 - **Feature Engineering: Disease Map Generation**
 - **Project Management Documentation: Business Case, Milestones, Deliverables, Budget, and Resources**
 - **Technical Documentation: Data Management, Model Training, Model Evaluation, and Feature Engineering**
+- **Iteration: Originally a CS Capstone project, later deployed as a Web App**
 
 ---
 
 ### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/Customer-Scheduling-Management-System-Java-SQL)
-- Full-stack Java application designed for global business scheduling and reporting
-- Built with MVC and DAO patterns, it features full CRUD functionality, and dynamic report generation
-- Automated localization for all timezones & 15 languages
-- Security features include basic password protection and user activity auditing
+- **Full-stack Java application** designed for global business scheduling and reporting.
+- Built with MVC and DAO patterns, it features **full CRUD functionality**, and **dynamic report generation**.
+- **Automated localization** for all timezones & 15 languages.
+- Security features include **password protection** and **user activity auditing**.
 
 ---
 
@@ -174,8 +175,8 @@ Whether building a precision segmentation model from scratch or customizing an L
 ---
 
 ### 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
-- White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations
-- Full portfolio includes: organization overview, technical white paper, executive summary, and multimedia presentations
+- White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations.
+- Full portfolio includes: organization overview, technical white paper, executive summary, and multimedia presentations.
 
 ---
 
