@@ -127,7 +127,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 - **Structured Prompt Engineering**
 - **LLM + RAG Integration & Customization**
 - **Domain-Aware Qualitative Analysis**
-- **Authored Documents: Series Bible, Character Bible, Beat Sheets, Scripts, 10-Episode Season, Feedback Structures**
+- **Authored Documents: Series Pitch, Series Bible, Character Bible, Scripts, Pilot, Feedback Structures**
 - **Thorough Demonstration of Suitably Complex Real-World Use Case**
 
 ---
