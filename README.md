@@ -114,7 +114,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 **Note**: *Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.*
 - Built an HITL system for AI-assisted creative development using studio design docs via RAG.  
 - Automated evaluation of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
-- Applied to a complex real-world use case: simulating a chaotic ensemble TV series from studio pitch to 10-episode treatment and pilot, aligned with predefined creative goals. 
+- Demonstrated use case: supported development of a chaotic ensemble TV series across all phases: studio pitch, writers’ room, rough scripts, table read feedback, to finalized season 1. 
 
 ---
 
