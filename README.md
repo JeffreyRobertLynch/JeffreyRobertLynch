@@ -154,7 +154,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 
 ---
 
-### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/Customer-Scheduling-Management-System-Java-SQL)
+### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/customer-scheduling-management-system)
 - **Full-stack Java application** designed for global business scheduling and reporting.
 - Built with MVC and DAO patterns, it features **full CRUD functionality**, and **dynamic report generation**.
 - **Automated localization** for all timezones & 15 languages.
