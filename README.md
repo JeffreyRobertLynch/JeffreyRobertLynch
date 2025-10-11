@@ -132,7 +132,7 @@ Whether building a precision segmentation model from scratch or customizing an L
 
 ---
 
-### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/LeafGuard-AI)
+### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
 - CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset.
 - **~99% accuracy (binary)**, **~94.5% (multi-class)** across **10 disease classes**; 1000 image test set.
 - **Classifies a 24-image batch**, with confidence scores and visualizations, in **under 3 seconds**.
