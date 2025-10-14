@@ -1,4 +1,4 @@
-# Lead AI/ML Systems Engineer | HITL & XAI | LLM/NLP | Computer Vision | Ethical AI | Educator | AI Strategy
+# AI/ML Engineer | Educator | Ethical AI, LLMs, Computer Vision, XAI, HITL | Technical Communication
 
 <!-- Programming Languages -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
