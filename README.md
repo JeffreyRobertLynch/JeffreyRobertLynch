@@ -1,4 +1,15 @@
-# AI/ML Engineer | Educator | Ethical AI, LLMs, Computer Vision, XAI, HITL | Technical Communication
+# Jeffrey Robert Lynch
+
+## AI/ML Systems Engineer | Educator | Ethical AI | NLP/LLM | Computer Vision | XAI | HITL | Technical Communication
+
+I build and communicate explainable, high-performance AI systems across computer vision and LLMs, with a focus on transparency, human-AI collaboration, and real-world deployment.
+
+## Let’s Connect
+
+- [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
+- [GitHub](https://www.github.com/JeffreyRobertLynch)
+
+---
 
 <!-- Programming Languages -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -209,5 +220,3 @@ Whether building a precision segmentation model from scratch or customizing an L
 - [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 
 ---
-
-_This GitHub showcases select projects and documentation only. For IP-protected work or custom system inquiries, please reach out directly or request a technical demo._
