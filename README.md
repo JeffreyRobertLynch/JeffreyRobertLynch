@@ -14,9 +14,11 @@ I build and communicate explainable, high-performance AI systems across computer
 ## Featured Projects
 
 ### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
-A high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. Features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance.
+GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is relatrively low for the achieved metrics, making it ideal for low infrastructure deployments like rural areas.
 
-> Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible for review.
+> Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible in the README for review.
+
+---
 
 **Key Features:**
 - Three variant models fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
@@ -61,24 +63,28 @@ A high-performance medical image segmentation system built from scratch using a 
 ---
 
 ### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
-- CNN-based classifier trained from scratch on Tomato Leaf Disease Detection dataset.
-- **~99% accuracy (binary)**, **~94.5% (multi-class)** across **10 disease classes**; 1000 image test set.
-- **Classifies a 24-image batch**, with confidence scores and visualizations, in **under 3 seconds**.
-- Full Web app includes a GUI-based batch image classifier with color-coded prediction maps for actionable disease monitoring.
-- Scalable architecture designed to process image batches from multiple facilities simultaneously, supporting deployment of multiple specialized models.
+LeafGuard is a CNN-based plant disease classifier trained from scratch on the Tomato Leaf Disease Detection dataset. It achieves high accuracy in classifying 10 disease classes, with a full web application that includes batch image processing, confidence score generation, and color-coded visualizations for actionable monitoring. The architecture is designed for scalability, potentially supporting multiple specialized models for facilities with varying needs.
+
+> Full code present in public repo, from notebook training to FastAPI deployment. Models and data required to run the application have been excluded. GUI screenshots and model output images available in the README.
+
+---
+
+**Key Features:**
+- **Full AI/ML application:** Frontend and backend integrated with trained models running in hard-coded functions to provide real-time outputs.
+- **99.4% accuracy (binary disease detection)**; **94.5% accuracy (multiclassification)** across **10 disease classes**.
+- **Batch classification:** Classifies a 24-image batch in under 2 seconds (local), generating confidence scores and batch visualization.
+- **Real-world utility:** Color-coded prediction maps for flagging diseased plants by location to enable actionable disease monitoring.
+- **Additional features:** Includes model switching, image downloads, and user feedback submission to support future training iterations.
+- **User-generated evaluation:** Generate accuracy scores and confusion matrices for any loaded model with optional PNG downloads.
 
 ---
 
 **Highlights:**  
-- **High-Accuracy Image Classification Convolutional Neural Network**
-- **End-to-End: Model Training, App Integration, and Web Deployment**
-- **Scalable, High-Throughput Image Batch Processing**
-- **Custom GUI with Actionable Visual Output**
-- **Portable to Additional Precision Agriculture Tasks**
-- **Feature Engineering: Disease Map Generation**
-- **Project Management Documentation: Business Case, Milestones, Deliverables, Budget, and Resources**
-- **Technical Documentation: Data Management, Model Training, Model Evaluation, and Feature Engineering**
-- **Iteration: Originally a CS Capstone project, later deployed as a Web App**
+- **Production:** Includes well-structured requirements.txt, tested Dockerfile, and README to support collaboration and production deployment.
+- **End-to-End Development:** From data to model training to app integration to dockerized deployment.
+- **Scalable Architecture:** High-throughput batch processing to handle larger datasets and integration of future models.
+- **Custom GUI:** Actionable visual output for easy decision-making and real-time disease monitoring.
+- **Full Lifecycle:** From initial academic prototype project to deployed AI/ML web application.
 
 ---
 
@@ -103,20 +109,16 @@ A high-performance medical image segmentation system built from scratch using a 
 ---
 
 ### 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
-- White Paper demonstrating how Splunk enables data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations.
-- Full portfolio includes: organization overview, technical white paper, executive summary, and multimedia presentations.
+A comprehensive white paper and executive summary that demonstrates how Splunk can drive data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations. This project earned an Academic Excellence Award for its technical communication, blending technical insight with strategic business awareness.
 
 ---
 
 - **Highlights:** 
-- **Academic Excellence Award Recipient: Technical Communication**
-- **Enterprise System (Splunk) Evaluation and Integration**
-- **Cross-Functional Stakeholder Engagement**
-- **Business Case Grounded in Operations and ROI**
-- **Technical Writing: White Paper and Executive Summary**
-- **Multimedia Presentation**
-- **Tailoring Strategic Communication**
-- **Earned Splunk Certs During Research.**
+- **Award-Winning Technical Communication:** Awarded for extensive research, use case alignment, and impact clarity.
+- **Enterprise System Evaluation:** Assessed and integrated Splunk into multiple business domains (Business Analytics, IT, Cybersecurity).
+- **Business Case Development:** Created a business case focused operations efficiency, ROI, and security, aligned with the real-world value of Splunk.
+- **Comprehensive Technical Writing:** Displayed proficiency at tailoring communication to diverse audiences, balancing complex details with high-level strategic recommendations.
+- **Splunk Credits:** Earned 15 Splunk Credits during the research phase, showcasing hands-on expertise.
 
 ---
 
