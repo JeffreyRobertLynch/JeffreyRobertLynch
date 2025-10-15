@@ -14,27 +14,27 @@ I build and communicate explainable, high-performance AI systems across computer
 ## Featured Projects
 
 ### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
-- Production-level medical image segmentation with deep explainability for clinical trust & regulatory compliance.
-- Custom **U-Net with attention mechanisms**, trained from scratch on the **ISIC 2018** skin lesion segmentation dataset  .
-- Achieved **production-level performance without pretrained models**.  
-  - **Dice**: 0.8751 | **IoU**: 0.8000 | **Precision**: 0.9028 | **Recall**: 0.8291 | **Accuracy**: 0.9272 | **F1 Score**: 0.8644  
-- Features a **full XAI suite**: Grad-CAM, layer visualization, saliency maps, integrated gradients, confidence maps, confusion matrices, and mask overlays.
-- Includes **modular image processing pipeline** for use in augmenting training data and preprocessing test images to enhance model performance.
-- Extensive **demo** for **technical** and **non-technical** audiences with visuals, metrics, and context.
+A high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. Features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance.
+
+> Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible for review.
+
+**Key Features:**
+- Three variant models fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
+- Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
+- Performance metrics: Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9028 | Recall: 0.8291 | Accuracy: 0.9272 | F1 Score: 0.8644
+- XAI tools: Layerwise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
+- Modular image processing pipeline for augmenting training data and preprocessing test images.
+- Comprehensive demo for both technical and non-technical audiences, showcasing system performance and interpretability.
 
 ---
 
 **Highlights:**  
-- **Flagship Project: Computer Vision + XAI Systems**
-- **High Performance Medical Image Segmentation**
-- **Custom Architecture with Attention Mechanisms**
-- **Advanced XAI Suit for Interpretability**
-- **Variant Model Specialization via Custom Loss for Task-Specific Performance (Dice, Tversky, Hybrid)**
-- **Domain-Aware, Metric-Driven Development (Dice, IoU, F1 Score, etc.) and Benchmarking**
-- **Modular Image Augmentation Pipeline**
-- **Reproducible and Generalizable Workflow Design**
-- **System Optimization for Performance, Decision Support, and Regulatory Compliance.**
-- **Thorough Demonstration and Documentation**
+- High-performance medical image segmentation with a custom architecture and significant development constraints.
+- Comprehensive application of XAI techniques for interpretability, transparency, and regulatory compliance.
+- Advanced metrics-driven development using Dice, IoU, F1 score, and custom loss functions (Dice, Tversky, Hybrid).
+- Exploration of performance trade-offs via optimizing variant models for specialized goals.
+- Modular, reproducible, and generalizable workflow for efficient deployment.
+- Extensive research, experimentation, and domain-aware development to address real-world challenges.
 
 ---
 
@@ -129,11 +129,5 @@ I build and communicate explainable, high-performance AI systems across computer
   - Unsupervised Learning, Recommenders, Reinforcement Learning
   - Advanced Learning Algorithms Algorithms
 - **CompTIA Project+**, **Axelos ITIL v4**, **TEFL**, **Splunk**
-
----
-
-## Let’s Connect
-
-- [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 
 ---
