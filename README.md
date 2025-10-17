@@ -97,7 +97,7 @@ LeafGuard is a CNN-based plant disease classifier trained from scratch on the To
 ---
 
 **Highlights:**  
-- **Academic Excellence Award Recipient: Software 2**
+- **Academic Excellence Award Recipient - Software 2: Advanced Java Concepts:**
 - **Full-Stack Software Engineering**
 - **MySQL Database Integration with CRUD (Create, Read, Update, Delete)**
 - **Scalable Architecture: MVC + DAO Layers (Model-View-Controller + Data Access Object)**
@@ -114,7 +114,7 @@ A comprehensive white paper and executive summary that demonstrates how Splunk c
 ---
 
 - **Highlights:** 
-- **Award-Winning Technical Communication:** Awarded for extensive research, use case alignment, and impact clarity.
+- **Academic Excellence Award Recipient - Technical Communication:** Awarded for extensive research, use case alignment, and impact clarity.
 - **Enterprise System Evaluation:** Assessed and integrated Splunk into multiple business domains (Business Analytics, IT, Cybersecurity).
 - **Business Case Development:** Created a business case focused operations efficiency, ROI, and security, aligned with the real-world value of Splunk.
 - **Comprehensive Technical Writing:** Displayed proficiency at tailoring communication to diverse audiences, balancing complex details with high-level strategic recommendations.
