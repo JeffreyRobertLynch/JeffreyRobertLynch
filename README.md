@@ -43,7 +43,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 ---
 
 ### 2. [StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
-Full stack, multi-LLM application for preliminary ranking and routing of TV series pitches based on multi-studio requirements. Adheres to HFHL (human-first, human-last) principles; AI/ML provides support but human experts always set goals, metrics, and make final determinations.
+Studiosync is a full stack, multi-LLM application for preliminary ranking and routing of TV series pitches based on multi-studio requirements. Adheres to HFHL (human-first, human-last) principles; AI/ML provides support but human experts always set goals, metrics, and make final determinations. Wide applications exist beyond featured use case, such as evaluating marketing copy, business pitches, or engineering documentation. 
 
 > Coming soon.
 
