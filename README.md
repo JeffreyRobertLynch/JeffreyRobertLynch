@@ -22,7 +22,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 
 **Key Features:**
 - **Three Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
-- **Peformance:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
+- **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
 - **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9028 | Recall: 0.8291 | Accuracy: 0.9272 | F1 Score: 0.8644
 - **XAI Tools:** Including layerwise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
 - **Modular & Portable:** Pipelines for training, augmention, evaluataion, XAI tools, and preprocessing input images.
@@ -32,7 +32,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 ---
 
 **Highlights:**  
-- **Multi-Domain:** Medical Image Segmentation with Computer Vision, NLP/LLM, and Explainable AI (XAI) integrated for synergy.
+- **Multi-Domain AI/ML:** Medical Image Segmentation with Computer Vision, NLP/LLM, and Explainable AI (XAI) integrated for synergy.
 - **High-performance Segmentation:** with custom architecture, fine-tuining with custom loss functions, and robust evaluation.
 - **Comprehensive XAI:** Robust application of techniques for interpretability, transparency, and regulatory compliance.
 - **Metrics-Driven Development:** using Dice, IoU, F1 score, and custom loss functions (Dice, Tversky, Hybrid).
@@ -43,24 +43,9 @@ GlassBox is a high-performance medical image segmentation system built from scra
 ---
 
 ### 2. [StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
-**Note**: *Updating use case to reflect migration from GPT-4 to GPT-5 for LLM component.*
-- Built an **HITL system** for human-led creative development using **studio design docs** and **RAG**.  
-- **Automated evaluation** of concepts, episodes, and seasons for continuity, tone & narrative DNA. 
-- **Demonstrated use case** by supporting development of a chaotic ensemble TV series **across all phases**: studio pitch, writers’ room, rough scripts, table read feedback, to finalized season 1. 
-- **Prioritized human creativity** by adhering to **Human-First, Human-Last** design principles.
+Full stack, multi-LLM application for preliminary ranking and routing of TV series pitches based on multi-studio requirements. Adheres to HFHL (human-first, human-last) principles; AI/ML provides support but human experts always set goals, metrics, and make final determinations.
 
----
-
-**Highlights:**  
-- **Flagship Project: LLM / NLP + HITL Systems**
-- **Cross-Disciplinary HFHL (Human-First, Human-Last) HITL System Design**
-- **Short-Form (Pitch, Outline, Beat Sheet) and Long-Form (Episode, Season, Full Corpus) Evaluation and Feedback**
-- **Guided by Human-Authored Documents for Tone, Style, Structure, Rule Adherence, Alignment, Continuity, Dynamism, Character Utilization & Consistency, etc.**
-- **Structured Prompt Engineering**
-- **LLM + RAG Integration & Customization**
-- **Domain-Aware Qualitative Analysis**
-- **Authored Documents: Series Pitch, Series Bible, Character Bible, Scripts, Pilot, Feedback Structures**
-- **Thorough Demonstration of Suitably Complex Real-World Use Case**
+> Coming soon.
 
 ---
 
@@ -93,7 +78,7 @@ LeafGuard is a CNN-based plant disease classifier trained from scratch on the To
 ### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/customer-scheduling-management-system)
 A full-stack Java application designed to support global business scheduling and reporting. Featuring full CRUD functionality, dynamic report generation, and automated localization, this project highlights strong software engineering principles including MVC architecture, DAO pattern, and security.
 
-> Full code present in repo.
+> Full code present in public repo.
 
 ---
 
