@@ -21,19 +21,19 @@ GlassBox is a high-performance medical image segmentation system built from scra
 ---
 
 **Key Features:**
-- **Three Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
+- **Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
 - **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
 - **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9028 | Recall: 0.8291 | Accuracy: 0.9272 | F1 Score: 0.8644
-- **XAI Tools:** Including layerwise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
-- **Modular & Portable:** Pipelines for training, augmention, evaluataion, XAI tools, and preprocessing input images.
+- **XAI Tools:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
+- **Modular & Portable:** Pipelines for training, augmentation, evaluatation, XAI tools, and preprocessing input images.
 - **Comprehensive Demos:** For both technical and non-technical audiences, showcasing system performance and interpretability.
-- **LLM Integration:** For reliably querying batch metrics, using Tinyllama with hard-coded scaffholding. 
+- **LLM Integration:** For reliably querying batch metrics, using Tinyllama with hard-coded scaffolding. 
 
 ---
 
 **Highlights:**  
 - **Multi-Domain AI/ML:** Medical Image Segmentation with Computer Vision, NLP/LLM, and Explainable AI (XAI) integrated for synergy.
-- **High-performance Segmentation:** with custom architecture, fine-tuining with custom loss functions, and robust evaluation.
+- **High-performance Segmentation:** with custom architecture, fine-tuning with custom loss functions, and robust evaluation.
 - **Comprehensive XAI:** Robust application of techniques for interpretability, transparency, and regulatory compliance.
 - **Metrics-Driven Development:** using Dice, IoU, F1 score, and custom loss functions (Dice, Tversky, Hybrid).
 - **Exploration and Documentation:** of performance trade-offs via optimizing variant models for specialized goals.
@@ -43,7 +43,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 ---
 
 ### 2. [StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
-Studiosync is a full stack, multi-LLM application for preliminary ranking and routing of TV series pitches based on multi-studio requirements. Adheres to HFHL (human-first, human-last) principles; AI/ML provides support but human experts always set goals, metrics, and make final determinations. Wide applications exist beyond featured use case, such as evaluating marketing copy, business pitches, or engineering documentation. 
+StudioSync is a full stack, multi-LLM application for preliminary ranking and routing of TV series pitches based on multi-studio requirements. Adheres to HFHL (human-first, human-last) principles; AI/ML provides support but human experts always set goals, metrics, and make final determinations. Wide applications exist beyond featured use case, such as evaluating marketing copy, business pitches, or engineering documentation. 
 
 > Coming soon.
 
@@ -85,7 +85,7 @@ A full-stack Java application designed to support global business scheduling and
 **Key Features:**
 - **Full-Stack Java Application:** MVC + DAO pattern with clear layer separation and mySQL database connectivity.
 - **Scale and Organization**: ~2000 lines of code across 40+ individual files with helper functions for translation, time zone adjustment, and automated alerts. 
-- **Automated Localization:** All timezones & 15 languages.
+- **Automated Localization:** All time zones & 15 languages.
 - **Security Features:** Password protection and user activity auditing.
 
 ---
@@ -93,7 +93,7 @@ A full-stack Java application designed to support global business scheduling and
 **Highlights:**  
 - **Academic Excellence Award Recipient - Software 2: Advanced Java Concepts:** “Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”
 - **Full-Stack Software Engineering:** Full CRUD (Create, Read, Update, Delete), MCV + DAO, mySQL integration.
-- **Dynamic Localization:** All Time Zones and 15 Languages via keys and language bundles.
+- **Dynamic Localization:** All time zones and 15 Languages via keys and language bundles.
 - **Automated Reporting:** Integrtion of prepared SQL statements with Java functions. 
 - **Object Oriented Programming:** Classes for data access objects and reports.
 
@@ -120,7 +120,7 @@ A comprehensive white paper and executive summary that demonstrates how Splunk c
 - **DeepLearning.AI / Stanford University: Machine Learning Specialization** 
   - Supervised Machine Learning: Regression and Classification
   - Unsupervised Learning, Recommenders, Reinforcement Learning
-  - Advanced Learning Algorithms Algorithms
+  - Advanced Learning Algorithms
 - **CompTIA Project+**, **Axelos ITIL v4**, **TEFL**, **Splunk**
 
 ---
