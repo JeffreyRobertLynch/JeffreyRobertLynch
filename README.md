@@ -23,7 +23,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 **Key Features:**
 - **Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
 - **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
-- **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9028 | Recall: 0.8291 | Accuracy: 0.9272 | F1 Score: 0.8644
+- **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9052 | Recall: 0.8870 | Accuracy: 0.9272 | F1 Score: 0.8751
 - **XAI Tools:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
 - **Modular & Portable:** Pipelines for training, augmentation, evaluatation, XAI tools, and preprocessing input images.
 - **Comprehensive Demos:** For both technical and non-technical audiences, showcasing system performance and interpretability.
