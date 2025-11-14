@@ -14,7 +14,7 @@ I build and communicate explainable, high-performance AI systems across computer
 ## Featured Projects
 
 ### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
-GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, including local LLM integration, making it ideal for low infrastructure deployments like rural areas.
+GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, XAI techniques, and local LLM integration, making it ideal for low infrastructure deployments.
 
 > Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible in the README for review.
 
@@ -42,10 +42,34 @@ GlassBox is a high-performance medical image segmentation system built from scra
 
 ---
 
-### 2. [StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
-StudioSync is a full stack, multi-LLM application for preliminary ranking and routing of TV series pitches based on multi-studio requirements. Adheres to HFHL (human-first, human-last) principles; AI/ML provides support but human experts always set goals, metrics, and make final determinations. Wide applications exist beyond featured use case, such as evaluating marketing copy, business pitches, or engineering documentation. 
+### 2. [StudioSync HITL: Model-Agnostic LLM Studio Alignment Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
+StudioSync is a fully custom, model-agnostic LLM evaluation system that scores cross-genre TV series pitches against diverse studio mandates. It uses engineered pitches, structured rubrics, unified system prompting, and deterministic JSON parsing to benchmark alignment across multiple models (local and API). The system demonstrates strong orchestration, output reliability, evaluation design, and human-in-the-loop integration.
 
-> Coming soon.
+> Full code and methodology are not publicly available to protect intellectual property. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
+
+---
+
+## **Key Features:**
+
+- **Model-Agnostic Orchestration:** Unified interface powering Qwen3:8b (local), GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro with interchangeable prompts and schemas.
+- **Engineered Pitch & Mandate Framework:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of just assessing creative quality alone.
+- **Structured Scoring & Rationales:** Eight scored criteria with deterministic JSON output and concise model-generated justifications.
+- **Batch Evaluation Engine:** Full 4x10×3 matrix (models × mandates x pitches) producing sortable global scores and mandate-specific leaderboards.
+- **Human-in-the-Loop Weighting:** Adjustable scoring weights with transparent raw output for interpretability and bias control.
+- **Streamlit Interface:** For loading pitches, selecting models, launching batch runs, inspecting raw output, and exporting final rankings.
+- **Robust Parsing Pipeline:** Guarantees schema consistency across models and runs, enabling reliable scoring at scale.
+
+---
+
+## **Highlights:**
+
+- **Model-Agnostic Systems Engineering:** Unified orchestration across four LLM families with structured prompts, standardized outputs, and consistent evaluation logic.
+- **Evaluation Design & Alignment Modeling:** Custom rubric and engineered dataset enabling real alignment assessment rather than subjective “pitch quality” scoring.
+- **Deterministic Output Handling:** JSON parsing, error correction, HITL weighting, and leaderboard generation built for reliability, scalability, and reproducibility.
+- **Human-in-the-Loop Transparency:** Raw structured outputs visible pre-weighting for traceability and control by decision-makers.
+- **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
+- **End-to-End Architecture:** Full working system with multi-model support, scalable batch execution, interactive UI, and polished demo assets.
+- **Practical Application:** A high-impact example of applying LLMs not for “chat” but for **domain-constrained evaluation**, alignment modeling, and orchestration engineering.
 
 ---
 
