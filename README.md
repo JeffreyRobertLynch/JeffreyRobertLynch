@@ -49,7 +49,7 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 
 ---
 
-## **Key Features:**
+**Key Features:**
 
 - **Model-Agnostic Orchestration:** Unified interface powering Qwen3:8b (local), GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro with interchangeable prompts and schemas.
 - **Engineered Pitch & Mandate Framework:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of just assessing creative quality alone.
@@ -61,7 +61,7 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 
 ---
 
-## **Highlights:**
+**Highlights:**
 
 - **Model-Agnostic Systems Engineering:** Unified orchestration across four LLM families with structured prompts, standardized outputs, and consistent evaluation logic.
 - **Evaluation Design & Alignment Modeling:** Custom rubric and engineered dataset enabling real alignment assessment rather than subjective “pitch quality” scoring.
