@@ -13,36 +13,7 @@ I build and communicate explainable, high-performance AI systems across computer
 
 ## Featured Projects
 
-### 1. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
-GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, XAI techniques, and local LLM integration, making it ideal for low infrastructure deployments.
-
-> Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible in the README for review.
-
----
-
-**Key Features:**
-- **Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
-- **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
-- **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9052 | Recall: 0.8870 | Accuracy: 0.9272 | F1 Score: 0.8751
-- **XAI Tools:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
-- **Modular & Portable:** Pipelines for training, augmentation, evaluatation, XAI tools, and preprocessing input images.
-- **Comprehensive Demos:** For both technical and non-technical audiences, showcasing system performance and interpretability.
-- **LLM Integration:** For reliably querying batch metrics, using Tinyllama with hard-coded scaffolding. 
-
----
-
-**Highlights:**  
-- **Multi-Domain AI/ML:** Medical Image Segmentation with Computer Vision, NLP/LLM, and Explainable AI (XAI) integrated for synergy.
-- **High-performance Segmentation:** with custom architecture, fine-tuning with custom loss functions, and robust evaluation.
-- **Comprehensive XAI:** Robust application of techniques for interpretability, transparency, and regulatory compliance.
-- **Metrics-Driven Development:** using Dice, IoU, F1 score, and custom loss functions (Dice, Tversky, Hybrid).
-- **Exploration and Documentation:** of performance trade-offs via optimizing variant models for specialized goals.
-- **Scalable and Portable:** Modular, reproducible, and generalizable workflows for efficient deployment and iteration.
-- **Thoroughness:** Extensive research, experimentation, and domain-aware development to address real-world challenges.
-
----
-
-### 2. [StudioSync HITL: Model-Agnostic LLM Studio Alignment Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
+### 1. [StudioSync HITL: Model-Agnostic LLM Studio Alignment Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
 StudioSync is a fully custom, model-agnostic LLM evaluation system that scores cross-genre TV series pitches against diverse studio mandates. It uses engineered pitches, structured rubrics, unified system prompting, and deterministic JSON parsing to benchmark alignment across multiple models (local and API). The system demonstrates strong orchestration, output reliability, evaluation design, and human-in-the-loop integration.
 
 > Full code and methodology are not publicly available to protect intellectual property. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
@@ -70,6 +41,35 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 - **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
 - **End-to-End Architecture:** Full working system with multi-model support, scalable batch execution, interactive UI, and polished demo assets.
 - **Practical Application:** A high-impact example of applying LLMs not for “chat” but for **domain-constrained evaluation**, alignment modeling, and orchestration engineering.
+
+---
+
+### 2. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
+GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, XAI techniques, and local LLM integration, making it ideal for low infrastructure deployments.
+
+> Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible in the README for review.
+
+---
+
+**Key Features:**
+- **Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
+- **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
+- **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9052 | Recall: 0.8870 | Accuracy: 0.9272 | F1 Score: 0.8751
+- **XAI Tools:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
+- **Modular & Portable:** Pipelines for training, augmentation, evaluatation, XAI tools, and preprocessing input images.
+- **Comprehensive Demos:** For both technical and non-technical audiences, showcasing system performance and interpretability.
+- **LLM Integration:** For reliably querying batch metrics, using Tinyllama with hard-coded scaffolding. 
+
+---
+
+**Highlights:**  
+- **Multi-Domain AI/ML:** Medical Image Segmentation with Computer Vision, NLP/LLM, and Explainable AI (XAI) integrated for synergy.
+- **High-performance Segmentation:** with custom architecture, fine-tuning with custom loss functions, and robust evaluation.
+- **Comprehensive XAI:** Robust application of techniques for interpretability, transparency, and regulatory compliance.
+- **Metrics-Driven Development:** using Dice, IoU, F1 score, and custom loss functions (Dice, Tversky, Hybrid).
+- **Exploration and Documentation:** of performance trade-offs via optimizing variant models for specialized goals.
+- **Scalable and Portable:** Modular, reproducible, and generalizable workflows for efficient deployment and iteration.
+- **Thoroughness:** Extensive research, experimentation, and domain-aware development to address real-world challenges.
 
 ---
 
