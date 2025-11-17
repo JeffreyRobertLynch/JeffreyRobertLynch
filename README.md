@@ -39,7 +39,7 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 - **Deterministic Output Handling:** JSON parsing, error correction, HITL weighting, and leaderboard generation built for reliability, scalability, and reproducibility.
 - **Human-in-the-Loop Transparency:** Raw structured outputs visible pre-weighting for traceability and control by decision-makers.
 - **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
-- **End-to-End Architecture:** Full working system with multi-model support, scalable batch execution, interactive UI, and polished demo assets.
+- **End-to-End Architecture:** Full working system with multi-model support, scalable batch execution, interactive UI, and polished demo.
 - **Practical Application:** A high-impact example of applying LLMs not for “chat” but for **domain-constrained evaluation**, alignment modeling, and orchestration engineering.
 
 ---
