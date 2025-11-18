@@ -44,7 +44,7 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 
 ---
 
-### 2. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability Suite](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
+### 2. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
 GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, XAI techniques, and local LLM integration, making it ideal for low infrastructure deployments.
 
 > Full code and methodology are not publicly available to protect intellectual property. Demos, metrics, model outputs, and XAI visualizations are fully accessible in the README for review.
