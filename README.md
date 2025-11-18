@@ -74,7 +74,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 ---
 
 ### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
-LeafGuard is a CNN-based plant disease classifier trained from scratch on the Tomato Leaf Disease Detection dataset. It achieves high accuracy in classifying 10 disease classes, with a full web application that includes batch image processing, confidence score generation, and color-coded visualizations for actionable monitoring. The architecture is designed for scalability, potentially supporting multiple specialized models for facilities with varying needs.
+LeafGuard is a CNN-based plant disease classifier web application (FastAPI) trained on the Tomato Leaf Disease Detection dataset. It achieves 99.4% accuracy (binary disease detection) and 94.5% accuracy (multiclassification) across 10 disease classes. Includes batch image processing, color-coded visualizations for actionable monitoring, model switching for scalability, and Dockerized setup for production deployment. 
 
 > Full code present in public repo, from notebook training to FastAPI deployment. Models and data required to run the application have been excluded. GUI screenshots and model output images available in the README.
 
