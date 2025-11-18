@@ -1,6 +1,6 @@
 # Jeffrey Robert Lynch
 
-## AI/ML Systems Engineer | Educator | Ethical AI | NLP/LLM | Computer Vision | XAI | HITL
+## AI/ML Systems Engineer | Full-Stack AI Systems | LLM & CV | XAI & HITL | Instructor & Technical Communicator
 
 I build and communicate explainable, high-performance AI systems across computer vision and LLMs, with a focus on transparency, human-AI collaboration, and real-world deployment.
 
