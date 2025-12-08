@@ -13,7 +13,7 @@ I build and communicate explainable, high-performance AI systems across computer
 
 ## Featured Projects
 
-### 1. [StudioSync HITL: Model-Agnostic LLM Studio Alignment Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
+### 1. [StudioSync HITL: Model-Agnostic LLM Evaluation Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
 StudioSync is a fully custom, model-agnostic LLM evaluation system that scores cross-genre TV series pitches against diverse studio mandates. It uses engineered pitches, structured rubrics, unified system prompting, and deterministic JSON/CSV/Markdown parsing to benchmark alignment across multiple models (local and API). The system demonstrates strong orchestration, output reliability, evaluation design, and human-in-the-loop integration.
 
 > Full code and methodology are not publicly available to protect intellectual property. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
