@@ -1,10 +1,10 @@
 # Jeffrey Robert Lynch
 
-## AI/ML Systems Engineer | Full-Stack AI Systems | LLM & CV | XAI & HITL | Instructor & Technical Communicator
+## AI/ML Systems Engineer | Full-Stack AI Systems | LLM & CV | XAI & HITL | Communicator
 
 I build and communicate explainable, high-performance AI systems across computer vision and LLMs, with a focus on transparency, human-AI collaboration, and real-world deployment.
 
-## Let’s Connect
+---
 
 - [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 - [GitHub](https://www.github.com/JeffreyRobertLynch)
