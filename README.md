@@ -1,8 +1,11 @@
 # Jeffrey Robert Lynch
 
-## AI/ML Systems Engineer | Full-Stack AI Systems | LLM & CV | XAI & HITL | Communicator
+## Applied AI | LLM | RAG | Evaluation | HITL | XAI | Deployment | Orchestration
 
-I build and communicate explainable, high-performance AI systems across computer vision and LLMs, with a focus on transparency, human-AI collaboration, and real-world deployment.
+**Portfolio at a Glance:**
+- **StudioSync:** Advanced LLM Systems
+- **GlassBox:** CV + XAI
+- **LeafGuard:** Deployment + APIs
 
 ---
 
@@ -13,7 +16,7 @@ I build and communicate explainable, high-performance AI systems across computer
 
 ## Featured Projects
 
-### 1. [StudioSync HITL: Model-Agnostic LLM Evaluation Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
+### 1. [StudioSync HITL: LLM/RAG Orchestration & Evaluation System](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
 StudioSync is a production-style LLM/RAG evaluation system for ranking, alignment, and decision support under real-world constraints. It demonstrates:
 
 - **How LLMs can be used reliably for structured evaluation tasks, using deterministic outputs, human-in-the-loop control, and reproducible scoring.**
@@ -49,7 +52,7 @@ StudioSync is a production-style LLM/RAG evaluation system for ranking, alignmen
 
 ---
 
-### 2. [GlassBox XAI: Attention U-Net for Medical Image Segmentation with Explainability](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
+### 2. [GlassBox XAI: Medical Image Segmentation with Explainability](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
 GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, XAI techniques, and local LLM integration, making it ideal for low infrastructure deployments.
 
 > Full code and methodology are not publicly available to protect intellectual property. Overview, metrics, model outputs, XAI visualizations, and research citations are fully accessible in the README for review.
@@ -78,7 +81,7 @@ GlassBox is a high-performance medical image segmentation system built from scra
 
 ---
 
-### 3. [LeafGuard AI: CNN-Based Plant Disease Classification Web Application](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
+### 3. [LeafGuard: Plant Disease Classification API](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
 LeafGuard is a CNN-based plant disease classifier web application (FastAPI) trained on the Tomato Leaf Disease Detection dataset. It achieves 99.4% accuracy (binary disease detection) and 94.5% accuracy (multiclassification) across 10 disease classes. Includes batch image processing, color-coded visualizations for actionable monitoring, model switching for scalability, and Dockerized setup for production deployment. 
 
 > Full code present in public repo, from notebook training to FastAPI deployment. Models and data required to run the application have been excluded. GUI screenshots and model output images available in the README.
