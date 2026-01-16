@@ -3,9 +3,9 @@
 ## Applied AI | LLM | RAG | Evaluation | HITL | XAI | Deployment | Orchestration
 
 **Portfolio at a Glance:**
-- **StudioSync:** Advanced LLM Systems
-- **GlassBox:** CV + XAI
-- **LeafGuard:** Deployment + APIs
+- **StudioSync:** Advanced LLM/RAG/HITL Systems
+- **GlassBox:** Segmentation/XAI
+- **LeafGuard:** Deployment/APIs
 
 ---
 
