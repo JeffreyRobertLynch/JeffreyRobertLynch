@@ -14,7 +14,12 @@ I build and communicate explainable, high-performance AI systems across computer
 ## Featured Projects
 
 ### 1. [StudioSync HITL: Model-Agnostic LLM Evaluation Engine](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
-StudioSync is a fully custom, model-agnostic LLM evaluation system that scores cross-genre TV series pitches against diverse studio mandates. It uses engineered pitches, structured rubrics, unified system prompting, and deterministic JSON/CSV/Markdown parsing to benchmark alignment across multiple models (local and API). The system demonstrates strong orchestration, output reliability, evaluation design, and human-in-the-loop integration.
+StudioSync is a production-style LLM/RAG evaluation system for ranking, alignment, and decision support under real-world constraints. It demonstrates:
+
+- **How LLMs can be used reliably for structured evaluation tasks, using deterministic outputs, human-in-the-loop control, and reproducible scoring.**
+- **How smaller LLMs can achieve premium performance on discrete tasks with proper orchestration and scaffolding.**
+- **How LLMs can be evaluated and benchmarked to produce meaningful cross-model metrics.**
+- **How this evaluation pattern generalizes across models, tasks, and industries, independent of the business use case.**
 
 > Full code and methodology are not publicly available to protect intellectual property. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
 
@@ -23,9 +28,9 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 **Key Features:**
 
 - **Model-Agnostic Orchestration:** Unified interface powering Qwen3:8b (local), GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro with interchangeable prompts and schemas.
-- **Engineered Pitch & Mandate Framework:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of assessing creative quality alone.
+- **Complex Validation Case:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of assessing general pitch quality alone.
 - **Structured Scoring & Rationales:** Eight scored criteria with deterministic JSON output and concise model-generated justifications.
-- **Batch Evaluation Engine:** Full 4x10×3 matrix (models × mandates x pitches) producing sortable scores and leaderboards.
+- **Batch Evaluation Engine:** Full matrix (models × mandates x pitches x HITL weights) producing sortable scores and leaderboards.
 - **Human-in-the-Loop Weighting:** Adjustable scoring weights with transparent raw output for interpretability and bias control.
 - **Streamlit Interface:** For loading pitches, selecting models, launching batch runs, inspecting raw output, and exporting final rankings.
 - **Robust Parsing Pipeline:** Guarantees schema consistency across models and runs, enabling reliable scoring at scale.
@@ -35,12 +40,12 @@ StudioSync is a fully custom, model-agnostic LLM evaluation system that scores c
 **Highlights:**
 
 - **Model-Agnostic Systems Engineering:** Unified orchestration across four LLM families with structured prompts, standardized outputs, and consistent evaluation logic.
-- **Evaluation Design & Alignment Modeling:** Custom rubric and engineered dataset enabling real alignment assessment rather than subjective “pitch quality” scoring.
+- **Evaluation Design & Alignment Modeling:** Custom rubric and engineered dataset enabling real alignment assessment rather than subjective scoring.
 - **Deterministic Output Handling:** JSON parsing, error correction, HITL weighting, and leaderboard generation built for reliability, scalability, and reproducibility.
-- **Human-in-the-Loop Transparency:** Raw structured outputs visible pre-weighting for traceability and control by decision-makers.
+- **Human-in-the-Loop Control:** Raw structured outputs visible pre-weighting for traceability and control by decision-makers.
 - **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
 - **End-to-End Architecture:** Full working system with multi-model support, scalable batch execution, interactive UI, and polished demo.
-- **Practical Application:** A high-impact example of applying LLMs not for “chat” but for **domain-constrained evaluation**, alignment modeling, and orchestration engineering.
+- **Practical Solution:** A high-impact example of applying LLMs to provide domain-aware decision support with clear success metrics for iteration and calibration.
 
 ---
 
@@ -55,10 +60,10 @@ GlassBox is a high-performance medical image segmentation system built from scra
 - **Variant Models:** Fine-tuned for different error profiles (false positives vs. false negatives) via custom loss functions.
 - **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembling, or data beyond ISIC 2018.
 - **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9052 | Recall: 0.8870 | Accuracy: 0.9272 | F1 Score: 0.8751
-- **XAI Tools:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, pixel confidence maps, and confusion matrices.
+- **XAI Tools:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, and pixel confidence maps.
 - **Modular & Portable:** Pipelines for training, augmentation, evaluatation, XAI tools, and preprocessing input images.
 - **Comprehensive Demos:** For both technical and non-technical audiences, showcasing system performance and interpretability.
-- **LLM Integration:** For reliably querying batch metrics, using Tinyllama with hard-coded scaffolding. 
+- **LLM Integration:** For reliably querying batch metrics, using Tinyllama 1b with hard-coded scaffolding. 
 
 ---
 
