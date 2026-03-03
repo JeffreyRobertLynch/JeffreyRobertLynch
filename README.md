@@ -1,11 +1,13 @@
 # Jeffrey Robert Lynch
 
-## Applied AI | LLM | RAG | Evaluation | HITL | XAI | Deployment | Orchestration
+## Applied AI Engineer | Production AI & Decision Support Systems | Evaluation & Deployment | LLM | RAG | HITL | XAI
 
 **Portfolio at a Glance:**
-- **StudioSync:** Advanced LLM/RAG/HITL Systems
-- **GlassBox:** Segmentation/XAI
-- **LeafGuard:** Deployment/APIs
+- **StudioSync:** LLM/RAG/HITL/Decision Support/Evaluation Automation/Streamlit
+- **GlassBox:** Computer Vision/Segmentation/XAI
+- **LeafGuard:** Computer Vision/FastAPI/GUI
+
+> All publicly available projects are populated with public or dummy datasets for demo so as not to violate confidentiality.
 
 ---
 
@@ -24,7 +26,7 @@ StudioSync is a production-style LLM/RAG evaluation system for ranking, alignmen
 - **How LLMs can be evaluated and benchmarked to produce meaningful cross-model metrics.**
 - **How this evaluation pattern generalizes across models, tasks, and industries, independent of the business use case.**
 
-> Full code and methodology are not publicly available to protect intellectual property. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
+> Full code and methodology are not publicly available to protect confidentiality. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
 
 ---
 
@@ -55,7 +57,7 @@ StudioSync is a production-style LLM/RAG evaluation system for ranking, alignmen
 ### 2. [GlassBox XAI: Medical Image Segmentation with Explainability](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
 GlassBox is a high-performance medical image segmentation system built from scratch using a custom U-Net with attention mechanisms, trained on the ISIC 2018 skin lesion dataset. It features three variant models with performance trade-offs and a comprehensive XAI suite for clinical trust and regulatory compliance. Computational complexity is low for the achieved metrics, XAI techniques, and local LLM integration, making it ideal for low infrastructure deployments.
 
-> Full code and methodology are not publicly available to protect intellectual property. Overview, metrics, model outputs, XAI visualizations, and research citations are fully accessible in the README for review.
+> Full code and methodology are not publicly available to protect confidentiality. Overview, metrics, model outputs, XAI visualizations, and research citations are fully accessible in the README for review.
 
 ---
 
