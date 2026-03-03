@@ -4,8 +4,8 @@
 
 **Portfolio at a Glance:**
 - **StudioSync:** LLM/RAG/HITL/Decision Support/Evaluation Automation/Streamlit
-- **GlassBox:** Computer Vision/Segmentation/XAI
-- **LeafGuard:** Computer Vision/FastAPI/GUI
+- **GlassBox:** U-Net/Segmentation/XAI
+- **LeafGuard:** CNN/FastAPI/GUI
 
 > All publicly available projects are populated with public or dummy datasets for demo so as not to violate confidentiality.
 
@@ -23,7 +23,7 @@ StudioSync is a production-style LLM/RAG evaluation system for ranking, alignmen
 
 - **How LLMs can be used reliably for structured evaluation tasks, using deterministic outputs, human-in-the-loop control, and reproducible scoring.**
 - **How smaller LLMs can achieve premium performance on discrete tasks with proper orchestration and scaffolding.**
-- **How LLMs can be evaluated and benchmarked to produce meaningful cross-model metrics.**
+- **How LLMs can be evaluated and benchmarked to produce meaningful cross-model metrics using automation.**
 - **How this evaluation pattern generalizes across models, tasks, and industries, independent of the business use case.**
 
 > Full code and methodology are not publicly available to protect confidentiality. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
