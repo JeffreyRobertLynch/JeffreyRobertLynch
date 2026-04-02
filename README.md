@@ -96,6 +96,8 @@ A full-stack Java application designed to support global business scheduling and
 ### 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
 A comprehensive white paper and executive summary that demonstrates how Splunk can drive data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations.
 
+> White Paper & Executive Summary present in repo.
+
 ---
 
 **Highlights:** 
