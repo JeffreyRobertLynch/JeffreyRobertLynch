@@ -8,7 +8,7 @@ Work includes LLM/RAG orchestration and evaluation pipelines, computer vision wi
 
 Projects below represent implementation and applied uses cases, with technical demos available in linked repositories.
 
-> All publicly available projects are populated with public or dummy datasets for demo so as not to violate confidentiality.
+> All publicly available projects use public or sanitized datasets for demo and do not violate confidentiality. Live execution demo with reproducible results available upon request.
 
 ---
 
@@ -19,7 +19,7 @@ These projects demonstrate production-style AI/ML systems, including sanitized c
 ### 1. [StudioSync: LLM Decision Support & Evaluation System (demo)](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
 StudioSync was designed to automate batch evaluation of proposals to determine alignment with multi-criteria business priorities. Beyond decision support, it also functions as an automated model/task-fit evaluator due to the model-agnostic architecture.
 
-> This project demonstrates systems and methodologies used in client engagements; the data has been modified for public demonstration. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots.
+> Live execution demo with reproducible results available upon request. This project demonstrates systems and methodologies used in client engagements; the data has been sanitized for public demonstration. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots. 
 
 ---
 
@@ -40,7 +40,7 @@ StudioSync was designed to automate batch evaluation of proposals to determine a
 GlassBox is a high-performance solution to the standardized **ISIC 2018: Binary Segmentation** challenge dataset; performance metrics can be validly benchmarked vs. other solutions. The system's models segment medical images, accurately isolating potentially cancerous skin lesions within each image. Each model was designed to optimize specific metrics for specialized deployment concerns; error profiles are calculated and compared in detail. Additional constraints, beyond the standard challenge constraints, were introduced to address low-infrastructure deployment. Finally, multiple XAI (explainable AI) techniques were integrated into pipelines to address trust and regulatory compliance. 
  
 
-> GlassBox has not undergone clinical validation and is not a medical device. All reported metrics reflect performance on a standardized test set and do not reflect or imply clinical validity. The system has never been deployed, but XAI techniques and pipelines have been repurposed in client work. Overview, metrics, model outputs, XAI visualizations, and research citations are fully accessible in the README for review.
+> Live execution demo with reproducible results available upon request. GlassBox has not undergone clinical validation and is not a medical device. All reported metrics reflect performance on a standardized test set and do not reflect or imply clinical validity. The system has never been deployed, but XAI techniques and pipelines have been repurposed in client work. Overview, metrics, model outputs, XAI visualizations, and research citations are fully accessible in the README for review.
 
 ---
 
@@ -59,7 +59,7 @@ GlassBox is a high-performance solution to the standardized **ISIC 2018: Binary 
 ### 3. [LeafGuard: AI/ML Computer Vision API (full repo)](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
 LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant disease classification models into a FastAPI backend with an interactive HTML/CSS/JS GUI, allowing users to perform batch inference, visualize results, switch between models, generate confusion matrices, and download outputs. Dockerized setup for production deployment. 
 
-> Models are trained on lab datasets and are not intended for real-world use. Though simplified, this project demonstrates end-to-end AI/ML system engineering parallel to client work. Models and data required to run the application have been excluded. GUI screenshots and model outputs available in the README.
+> Live execution demo with reproducible results available upon request. Models are trained on lab datasets and are not intended for real-world use. Though simplified, this project demonstrates end-to-end AI/ML system engineering parallel to client work. Models and data required to run the application have been excluded. Full code present in repo. GUI screenshots and system outputs available in the README. 
 
 ---
 
@@ -69,7 +69,7 @@ LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant
 - **Model Flexibility:** Users can switch between multiple CNN models to compare performance or experiment with alternative architectures.
 - **Actionable Outputs:** Batch classification results include color-coded disease heatmaps, test set metrics, confusion matrices, and downloadable visualizations.
 - **Scalable Architecture:** Dockerized for easy deployment, reproducibility, and integration into larger AI/ML systems.
-- **CNN Models:** Models used in this demo were trained on lab images for my senior CS capstone. They are accurate on the test set (99.4% binary accuracy, 94.5% 10-class accuracy) but would not be accurate in real-world conditions. However, it would be straightforward to train real-world accurate models and seamlessly replace the old ones due to modular design. I address this in the README. 
+- **CNN Models:** Models used in this demo were trained on lab images for my senior CS capstone. They are accurate on the test set (99.4% binary accuracy, 94.5% 10-class accuracy) but would not be accurate in real-world conditions. However, it would be straightforward to train real-world accurate models and seamlessly replace the old ones due to modular design. 
 
 ---
 
@@ -78,7 +78,7 @@ LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant
 ### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/customer-scheduling-management-system)
 A full-stack Java application designed to support global business scheduling and reporting. Featuring full CRUD functionality, dynamic report generation, and automated localization, this project highlights strong software engineering principles including MVC architecture, DAO pattern, and database connectivity.
 
-> Full code present in public repo.
+> Full code present in repo.
 
 ---
 
