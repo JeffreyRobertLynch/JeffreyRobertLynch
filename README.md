@@ -75,8 +75,6 @@ LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant
 
 ## Academic Projects with Honors - Software 2 & Technical Communication
 
----
-
 ### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/customer-scheduling-management-system)
 A full-stack Java application designed to support global business scheduling and reporting. Featuring full CRUD functionality, dynamic report generation, and automated localization, this project highlights strong software engineering principles including MVC architecture, DAO pattern, and database connectivity.
 
