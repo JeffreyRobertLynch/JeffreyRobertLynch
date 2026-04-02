@@ -26,7 +26,7 @@ StudioSync was designed to automate batch evaluation of proposals to determine a
 **Highlights:**
 
 - **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
-- **Model-Agnostic Orchestration:** Unified pipelines supporting local models (Qwen, Gemma, Llama) and cloud models (GPT, Claude, Gemini, Deepseek).
+- **Model-Agnostic Orchestration:** Unified pipelines support local models (Qwen, Gemma, Llama) and cloud models (GPT, Claude, Gemini, Deepseek) end-to-end.
 - **Complex Demo Use Case:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of assessing general pitch quality alone.
 - **Structured Scoring & Rationales:** Eight scored criteria with deterministic JSON output and concise (512 token) model-generated justifications. Structured model output populates analytics dashboards.
 - **Custom Batch Evaluation:** Full matrix (models × mandates x pitches x HITL weights) producing sortable scores and leaderboards.
@@ -36,7 +36,7 @@ StudioSync was designed to automate batch evaluation of proposals to determine a
 
 ---
 
-### 2. [GlassBox XAI: Medical Image Segmentation with Explainable AI & LLM Integration (demo)](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
+### 2. [GlassBox: Medical Image Segmentation with Explainable AI & LLM Integration (demo)](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
 GlassBox is a high-performance solution to the standardized **ISIC 2018: Binary Segmentation** challenge dataset; performance metrics can be validly benchmarked vs. other solutions. The system's models segment medical images, accurately isolating potentially cancerous skin lesions within each image. Each model was designed to optimize specific metrics for specialized deployment concerns; error profiles are calculated and compared in detail. Additional constraints, beyond the standard challenge constraints, were introduced to address low-infrastructure deployment. Finally, multiple XAI (explainable AI) techniques were integrated into pipelines to address trust and regulatory compliance. 
  
 
@@ -56,8 +56,8 @@ GlassBox is a high-performance solution to the standardized **ISIC 2018: Binary 
 
 ---
 
-### 3. [LeafGuard: AI/ML Computer Version API (full repo)](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
-LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant disease classification models into a FastAPI backend with an interactive HTML/CSS/JS GUI, allowing users to perform batch inference, visualize results, switch between models, generate confusion matrices, and download outputs Dockerized setup for production deployment. 
+### 3. [LeafGuard: AI/ML Computer Vision API (full repo)](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
+LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant disease classification models into a FastAPI backend with an interactive HTML/CSS/JS GUI, allowing users to perform batch inference, visualize results, switch between models, generate confusion matrices, and download outputs. Dockerized setup for production deployment. 
 
 > Models are trained on lab datasets and are not intended for real-world use. Though simplified, this project demonstrates end-to-end AI/ML system engineering parallel to client work. Models and data required to run the application have been excluded. GUI screenshots and model outputs available in the README.
 
