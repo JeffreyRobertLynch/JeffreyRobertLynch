@@ -69,7 +69,7 @@ LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant
 - **Model Flexibility:** Users can switch between multiple CNN models to compare performance or experiment with alternative architectures.
 - **Actionable Outputs:** Batch classification results include color-coded disease heatmaps, test set metrics, confusion matrices, and downloadable visualizations.
 - **Scalable Architecture:** Dockerized for easy deployment, reproducibility, and integration into larger AI/ML systems.
-- **CNN Models:** Models used in this demo were trained on lab images for my senior CS capstone. They are accurate on the test set (99.4% binary accuracy, 94.5% 10-class accuracy) but would not be accurate in real-world conditions. However, it would be straightforward to train real-world accurate models and plug them into this system seamlessly due to modular design. I address this in the README. 
+- **CNN Models:** Models used in this demo were trained on lab images for my senior CS capstone. They are accurate on the test set (99.4% binary accuracy, 94.5% 10-class accuracy) but would not be accurate in real-world conditions. However, it would be straightforward to train real-world accurate models and seamlessly replace the old ones due to modular design. I address this in the README. 
 
 ---
 
