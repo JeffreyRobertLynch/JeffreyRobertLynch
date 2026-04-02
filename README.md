@@ -26,7 +26,7 @@ StudioSync was designed to automate batch evaluation of proposals to determine a
 **Highlights:**
 
 - **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
-- **Model-Agnostic Orchestration:** Unified pipelines support local models (Qwen, Gemma, Llama) and cloud models (GPT, Claude, Gemini, Deepseek) end-to-end.
+- **Model-Agnostic Orchestration:** Unified pipelines support local models (Qwen, Gemma, Llama, DeepSeek, GPT-OSS) and cloud models (GPT, Claude, Gemini, Deepseek) end-to-end.
 - **Complex Demo Use Case:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of assessing general pitch quality alone.
 - **Structured Scoring & Rationales:** Eight scored criteria with deterministic JSON output and concise (512 token) model-generated justifications. Structured model output populates analytics dashboards.
 - **Custom Batch Evaluation:** Full matrix (models × mandates x pitches x HITL weights) producing sortable scores and leaderboards.
