@@ -1,12 +1,14 @@
 # Jeffrey Robert Lynch
 
-## Applied AI Engineer | AI Systems & Evaluation | LLMs | Computer Vision | XAI
+## Applied AI Engineer | AI Systems | Evaluation | LLMs | Computer Vision | XAI
 
 Applied AI engineer focused on building and evaluating end-to-end AI systems that turn ambiguous problems into working, measurable software.
 
 I build across LLM orchestration, evaluation harnesses, computer vision, explainability, model serving, and full-stack AI applications with an emphasis on structured outputs, reproducibility, traceability, practical constraints, and measurable alignment with project goals.
 
 The projects below demonstrate three complementary capabilities: **AI evaluation & decision support, technically rigorous AI/ML development, and end-to-end AI application delivery.**
+
+> All featured systems use public or sanitized data. Live execution with reproducible results is available upon request.
 
 ---
 
