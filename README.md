@@ -1,129 +1,140 @@
 # Jeffrey Robert Lynch
 
-## Applied AI Engineer | Production AI & Decision Support Systems | Evaluation & Deployment | LLM | RAG | HITL | XAI
+## Applied AI Engineer | AI Systems & Evaluation | LLMs | Computer Vision | XAI
 
-AI/ML Systems Engineer focused on building end-to-end AI applications that integrate machine learning models into reliable, real-world systems.
+Applied AI engineer focused on building and evaluating end-to-end AI systems that turn ambiguous problems into working, measurable software.
 
-Work includes LLM/RAG orchestration and evaluation pipelines, computer vision with explainability, and deployed AI applications with user-facing interfaces. Emphasis on structured outputs, reproducibility, and system-level design under practical constraints.
+I build across LLM orchestration, evaluation harnesses, computer vision, explainability, model serving, and full-stack AI applications with an emphasis on structured outputs, reproducibility, traceability, practical constraints, and measurable alignment with project goals.
 
-Projects below represent implementation and applied uses cases, with technical demos available in linked repositories.
-
-> All publicly available projects use public or sanitized datasets for demo and do not violate confidentiality. Live execution demo with reproducible results available upon request.
+The projects below demonstrate three complementary capabilities: **AI evaluation & decision support, technically rigorous AI/ML development, and end-to-end AI application delivery.**
 
 ---
 
-## Featured AI/ML Systems
+# Featured AI/ML Systems
 
-These projects demonstrate production-style AI/ML systems, including sanitized client work.
+## 1. [StudioSync: LLM Decision Support & Evaluation System](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
 
-### 1. [StudioSync: LLM Decision Support & Evaluation System (demo)](https://github.com/JeffreyRobertLynch/StudioSync-HITL-Human-in-the-Loop-LLM-System-for-Narrative-Intelligence)
-StudioSync was designed to automate batch evaluation of proposals to determine alignment with multi-criteria business priorities. Beyond decision support, it also functions as an automated model/task-fit evaluator due to the model-agnostic architecture.
+StudioSync automates batch evaluation of proposals to determine alignment with configurable multi-criteria business priorities defined by users. 
 
-> Live execution demo with reproducible results available upon request. This project demonstrates systems and methodologies used in client engagements; the data has been sanitized for public demonstration. A complete technical demo is fully accessible in the README with structured outputs, batch evaluations, HITL-weighted leaderboards, and inference screenshots. 
+Beyond decision support, it also functions as an automated model/task-fit evaluation harness due to the model-agnostic architecture. Multiple discrete models can be tested, scored, and compared on the exact same task to determine suitability.
 
----
+### Highlights
 
-**Highlights:**
+- **Generalizable Evaluation Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and domains requiring multi-criteria priority alignment or resource allocation.
+- **Model-Agnostic Orchestration:** Unified pipelines support local and cloud LLMs, including Qwen, Gemma, Llama, DeepSeek, GPT, Claude, and Gemini.
+- **Multi-Dimensional Evaluation:** Evaluates proposals against explicit user-defined priorities with customizable weights, including: budget, production timeline, and audience fit.
+- **Structured Outputs:** Deterministic JSON schemas parse raw output into machine-readable scores with concise model-generated rationales.
+- **Batch Evaluation:** Models × mandates × proposals can be evaluated in repeatable matrix runs, producing sortable scores and comparative leaderboards.
+- **Human-in-the-Loop:** Adjustable criterion weights allow users to change priorities while preserving transparent scoring and raw model outputs.
+- **Traceability & Reproducibility:** Run metadata, system documents, model information, and structured outputs provide a reproducible evaluation trail.
+- **Interactive Interface:** Streamlit application supports data ingestion, batch execution, raw-output inspection, analytics, and result export.
 
-- **Generalizable Framework:** Extensible to healthcare ops, marketing, policy evaluation, proposal scoring, and any domain requiring priority alignment or resource allocation.
-- **Model-Agnostic Orchestration:** Unified pipelines support local models (Qwen, Gemma, Llama, DeepSeek, GPT-OSS) and cloud models (GPT, Claude, Gemini, Deepseek) end-to-end.
-- **Complex Demo Use Case:** Ten high-quality cross-genre pitches and three divergent studio mandates designed to isolate granular **alignment fit** (Subgenres, Tone, Budget, Production Timeline, Audience Fit, etc.), instead of assessing general pitch quality alone.
-- **Structured Scoring & Rationales:** Eight scored criteria with deterministic JSON output and concise (512 token) model-generated justifications. Structured model output populates analytics dashboards.
-- **Custom Batch Evaluation:** Full matrix (models × mandates x pitches x HITL weights) producing sortable scores and leaderboards.
-- **Human-in-the-Loop Weighting:** Adjustable section weights to customize user priorities with transparent raw output for interpretability and auditing.
-- **Streamlit Interface:** For ingesting pitches/mandates, launching custom batch runs, inspecting raw output, analytics dashboards, and exporting final rankings.
-- **Robust Pipelines:** Guarantees schema consistency across models and runs, enabling reliable scoring at scale. Run manager embeds metadata into all model outputs and system documents for traceability and reproducibility.
-
----
-
-### 2. [GlassBox: Medical Image Segmentation with Explainable AI & LLM Integration (demo)](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
-GlassBox is a high-performance solution to the standardized **ISIC 2018: Binary Segmentation** challenge dataset; performance metrics can be validly benchmarked vs. other solutions. The system's models segment medical images, accurately isolating potentially cancerous skin lesions within each image. Each model was designed to optimize specific metrics for specialized deployment concerns; error profiles are calculated and compared in detail. Additional constraints, beyond the standard challenge constraints, were introduced to address low-infrastructure deployment. Finally, multiple XAI (explainable AI) techniques were integrated into pipelines to address trust and regulatory compliance. 
- 
-
-> Live execution demo with reproducible results available upon request. GlassBox has not undergone clinical validation and is not a medical device. All reported metrics reflect performance on a standardized test set and do not reflect or imply clinical validity. The system has never been deployed, but XAI techniques and pipelines have been repurposed in client work. Overview, metrics, model outputs, XAI visualizations, and research citations are fully accessible in the README for review.
+**Methodology, golden set design, structured outputs, evaluation results, dashboards, and implementation details are available in the repository.**
 
 ---
 
-**Highlights:** 
-- **Variant Models:** Fine-tuned for specific error profiles (false positives vs. false negatives) via custom loss functions.
-- **Realistic Constraints:** Achieved production-level performance benchmarks without pretrained models, ViTs, ensembles, or data beyond ISIC 2018.
-- **Performance Metrics:** Dice: 0.8751 | IoU: 0.8000 | Precision: 0.9052 | Recall: 0.8870 | Accuracy: 0.9272 | F1 Score: 0.8751
-- **Metrics-Driven Development:** using Dice, IoU, F1 score, and custom loss functions (Dice, Tversky, Hybrid).
-- **Comprehensive XAI:** Including layer-wise Grad-CAM, saliency maps, integrated gradients, and pixel confidence maps.
-- **Modular & Portable:** Pipelines for training, augmentation, evaluation, XAI tools, and preprocessing input images.
-- **LLM Integration:** Chatbot interface for reliably querying and retrieving batch metrics. 
-- **Multi-Domain AI/ML:** Computer Vision Segmentation, LLM for Retrieval-Augmented Generation (RAG), and Explainable AI (XAI) for transparency integrated for synergy in one system.
+## 2. [GlassBox: Computer Vision Segmentation, Evaluation & XAI](https://github.com/JeffreyRobertLynch/GlassBox-XAI)
+
+GlassBox is a from-scratch computer-vision segmentation system built in adherence to the standardized **ISIC 2018 Binary Segmentation** challenge dataset, focused on highlighting potentially cancerous skin lesions for decision support. Performance metrics can be validly benchmarked vs. other solutions.
+
+The system uses three specialized model variants optimized for different error profiles and evaluates them using a common global-pixel evaluation baseline. Multiple XAI pipelines provide additional visibility into model behavior.
+
+> GlassBox is a research/demo system and is not a medical device or clinically validated system. Results below reflect performance on the standardized test set.
+
+### Evaluation Results
+
+| Model | Accuracy | Dice / F1 | IoU | Precision | Recall |
+|---|---:|---:|---:|---:|---:|
+| Precision-Optimized | **92.72%** | 86.44% | 76.11% | **90.28%** | 82.91% |
+| Balance-Optimized | 92.67% | **86.74%** | **76.58%** | 87.87% | 85.64% |
+| Recall-Optimized | 91.82% | 85.95% | 75.37% | 82.80% | **89.36%** |
+
+### Highlights
+
+- **Three Specialized Models:** Separate models optimized for minimizing false negatives, minimizing false positives, and balanced performance provide measurable error-profile tradeoffs.
+- **From-Scratch Architecture:** Custom U-Net architecture trained without pretrained models, ViTs, ensembles, or external data.
+- **Custom Loss Functions:** Dice, Tversky, and hybrid loss functions produce specialized segmentation behavior.
+- **Quantitative Evaluation:** Custom metric functions calculate globally aggregated TP, TN, FP, and FN counts across the complete test set for consistent comparison.
+- **Comprehensive XAI:** Layer-wise Grad-CAM, saliency maps, integrated gradients, and pixel-confidence visualizations provide multiple views of model behavior.
+- **Practical Constraints:** CPU-Optimized inference and compute-light architecture support portability and wide deployment.
+- **LLM Integration:** Structured interface for querying and retrieving evaluation metrics.
+- **Modular Pipelines:** Separate training, preprocessing, evaluation, augmentation, and XAI components support reuse across computer-vision systems.
+
+**Methodology, confusion matrices, metrics, visualizations, implementation details, and research references are available in the repository.**
 
 ---
 
-### 3. [LeafGuard: AI/ML Computer Vision API (full repo)](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
-LeafGuard demonstrates end-to-end AI/ML system delivery. It integrates CNN plant disease classification models into a FastAPI backend with an interactive HTML/CSS/JS GUI, allowing users to perform batch inference, visualize results, switch between models, generate confusion matrices, and download outputs. Dockerized setup for production deployment. 
+## 3. [LeafGuard: End-to-End AI/ML Computer Vision API](https://github.com/JeffreyRobertLynch/leafguard-ai-cv)
 
-> Live execution demo with reproducible results available upon request. Models are trained on lab datasets and are not intended for real-world use. Though simplified, this project demonstrates end-to-end AI/ML system engineering parallel to client work. Models and data required to run the application have been excluded. Full code present in repo. GUI screenshots and system outputs available in the README. 
+LeafGuard demonstrates complete delivery of multiple AI models as a usable software service.
 
----
+CNN classification models are integrated into a FastAPI backend with an interactive web interface supporting batch inference, model switching, visualization, evaluation, and downloadable results.
 
-**Key Features:**
-- **API Model Service:** Model serving, pipeline integration, multi-model management, GUI design, and API delivery.
-- **End-to-End Deployment:** Complete pipeline from training notebook to prototype to model integration to API service to GUI to output analytics.
-- **Model Flexibility:** Users can switch between multiple CNN models to compare performance or experiment with alternative architectures.
-- **Actionable Outputs:** Batch classification results include color-coded disease heatmaps, test set metrics, confusion matrices, and downloadable visualizations.
-- **Scalable Architecture:** Dockerized for easy deployment, reproducibility, and integration into larger AI/ML systems.
-- **CNN Models:** Models used in this demo were trained on lab images for my senior CS capstone. They are accurate on the test set (99.4% binary accuracy, 94.5% 10-class accuracy) but would not be accurate in real-world conditions. However, it would be straightforward to train real-world accurate models and seamlessly replace the old ones due to modular design. 
+### Highlights
 
----
+- **Model Serving:** CNN inference integrated into a modular FastAPI service.
+- **End-to-End Delivery:** Model training -> model integration -> inference pipeline -> API -> GUI -> analytics/output.
+- **Model Switching:** Multiple models can be loaded and compared through the same application architecture.
+- **Batch Inference:** Process multiple images and generate structured classification results.
+- **Evaluation Outputs:** Confusion matrices, test-set metrics, and visual result summaries are integrated into the application.
+- **Interactive Interface:** HTML/CSS/JavaScript GUI provides model selection, inference, visualization, and result export.
+- **Containerized Deployment:** Dockerized architecture supports reproducible setup and integration into larger systems.
 
-## Academic Projects with Honors - Software 2 & Technical Communication
+The demonstration models use laboratory datasets and are not intended for real-world deployment. The architecture is designed to allow models to be replaced without rebuilding the surrounding application.
 
-### 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/customer-scheduling-management-system)
-A full-stack Java application designed to support global business scheduling and reporting. Featuring full CRUD functionality, dynamic report generation, and automated localization, this project highlights strong software engineering principles including MVC architecture, DAO pattern, and database connectivity.
-
-> Full code present in repo.
+**Full implementation, architecture, screenshots, and system outputs are available in the repository.**
 
 ---
 
-**Highlights:**  
+# Academic Projects with Honors
+
+## 4. [Customer Scheduling Management System](https://github.com/JeffreyRobertLynch/customer-scheduling-management-system)
+
+A full-stack Java/SQL CRUD application for global business scheduling, reporting, and user management.
+
 - **Academic Excellence Award Recipient - Software 2: Advanced Java Concepts:** “Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”
-- **Full-Stack Software Engineering:** Full CRUD (Create, Read, Update, Delete), MCV + DAO with clear layer separation, mySQL integration.
-- **Scale and Organization**: ~2000 lines of code across 40+ individual files with helper classes for translation, time zone adjustment, and automated alerts. 
-- **Dynamic Localization:** All time zones and 15 Languages via keys and language bundles.
-- **Security Features:** Password protection and user activity auditing.
-- **Automated Reporting:** Integration of prepared SQL statements with Java functions. 
-- **Object Oriented Programming:** Classes for data access objects and reports.
+- **Full-Stack Engineering:** MVC + DAO architecture, CRUD operations, MySQL integration, and clear separation of application layers.
+- **Application Features:** Dynamic reporting, automated alerts, activity auditing, authentication, and database-backed workflows.
+- **Automated Reporting:** Integration of prepared SQL statements for one click report generation.
+- **Internationalization:** 15 languages and automated time-zone handling using reusable localization infrastructure.
+- **Scale:** Approximately 2,000 lines of code across 40+ files.
+
+**Full implementation available in the repository.**
 
 ---
 
-### 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
-A comprehensive white paper and executive summary that demonstrates how Splunk can drive data-driven decision-making across Business Analytics, IT Infrastructure, and Cybersecurity Operations.
+## 5. [Splunk Integration for Business Intelligence](https://github.com/JeffreyRobertLynch/Splunk-Integration-for-Business-Intelligence)
 
-> White Paper & Executive Summary present in repo.
+A technical white paper and executive summary examining how Splunk can support data-driven decision-making across business analytics, IT infrastructure, and cybersecurity.
 
----
+- **Academic Excellence Award Recipient - Technical Communication:** “This submission shows excellence in its level of detail when describing [business case] and explaining how Splunk could help it attain greater success. Expert sources such as [cited research] provide conclusive information to support the claim that developing a better grasp of data will enable [business case] to create opportunities for expansion into underserved markets.”
+- **Enterprise System Evaluation:** Examined applications across multiple operational domains.
+- **Business Case Development:** Connected technical capabilities to operational efficiency, ROI, and security considerations.
+- **Technical Communication:** Translated complex technical concepts into structured recommendations for business audiences.
+- **Splunk:** Earned 15 Splunk Credits during the research phase.
 
-**Highlights:** 
-- **Academic Excellence Award Recipient - Technical Communication:** “This submission shows excellence in its level of detail when describing [business case] and explaining how Splunk could help it attain greater success. Expert sources such as Vardhan (2021) provide conclusive information to support the claim that developing a better grasp of data will enable [business case] to create opportunities for expansion into underserved markets.”
-- **Enterprise System Evaluation:** Assessed integration of Splunk into multiple business domains (Business Analytics, IT, Cybersecurity) with a focus on outcomes.
-- **Business Case Development:** Created a business case focused operations efficiency, ROI, and security, aligned with the real-world value of Splunk.
-- **Comprehensive Technical Writing:** Displayed proficiency at tailoring communication to diverse audiences, balancing complex details with high-level strategic recommendations.
-- **Splunk Credits:** Earned 15 Splunk Credits during the research phase, showcasing hands-on expertise.
+**White paper and executive summary available in the repository.**
 
 ---
 
-## Education
+# Education
 
-- **B.S. in Computer Science, ABET-Accredited Program** 
-- **Stanford University: AI in Healthcare Specialization** 
-- **DeepLearning.AI / Stanford University: Machine Learning Specialization** 
+- **B.S. in Computer Science — ABET-Accredited Program**
+- **Stanford University: AI in Healthcare Specialization**
+- **DeepLearning.AI / Stanford University: Machine Learning Specialization**
   - Supervised Machine Learning: Regression and Classification
-  - Unsupervised Learning, Recommenders, Reinforcement Learning
   - Advanced Learning Algorithms
-- **CompTIA Project+**, **Axelos ITIL v4**, **TEFL**, **Splunk**
+  - Unsupervised Learning, Recommenders, Reinforcement Learning
+- **CompTIA Project+**
+- **Axelos ITIL v4**
+- **TEFL**
+- **Splunk**
 
 ---
 
-## Contact
+# Contact
 
 - [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 - [GitHub](https://www.github.com/JeffreyRobertLynch)
 
-Open to discussing AI/ML roles, collaborations, and applied AI work.
+Open to discussing Applied AI, AI/ML systems, evaluation, and engineering opportunities.
